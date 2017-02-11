@@ -1,0 +1,482 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Dx11TimerManager.cpp
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(18): warning C4251: 'DX11::CDx11Object::m_strTypeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\core\dx11timermanager.h(12): warning C4251: 'DX11::CDx11TimerManager::m_mapTimer': class 'std::unordered_map<std::string,DX11::CDx11Timer *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'DX11::CDx11TimerManager'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Timer *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\core\dx11timermanager.h(12): note: 'std::unordered_map<std::string,DX11::CDx11Timer *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Timer *
+          ]
+  Dx11Timer.cpp
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(18): warning C4251: 'DX11::CDx11Object::m_strTypeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+  Dx11Scheduler.cpp
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(18): warning C4251: 'DX11::CDx11Object::m_strTypeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\core\dx11scheduler.h(22): warning C4251: 'DX11::CDx11Scheduler::m_Schedule': class 'std::list<DX11::CDx11Scheduler::PSCHEDULEINFO,std::allocator<_Ty>>'에서는 class 'DX11::CDx11Scheduler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Scheduler::PSCHEDULEINFO
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\core\dx11scheduler.h(22): note: 'std::list<DX11::CDx11Scheduler::PSCHEDULEINFO,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Scheduler::PSCHEDULEINFO
+          ]
+  Dx11Input.cpp
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(18): warning C4251: 'DX11::CDx11Object::m_strTypeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\core\dx11input.h(12): warning C4251: 'DX11::CDx11Input::m_mapKey': class 'std::unordered_map<std::string,DX11::PKEYINFO,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'DX11::CDx11Input'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::PKEYINFO
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\core\dx11input.h(12): note: 'std::unordered_map<std::string,DX11::PKEYINFO,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::PKEYINFO
+          ]
+  Dx11FilePathManager.cpp
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(18): warning C4251: 'DX11::CDx11Object::m_strTypeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\core\dx11filepathmanager.h(12): warning C4251: 'DX11::CDx11FilePathManager::m_mapPath': class 'std::unordered_map<std::string,std::wstring,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'DX11::CDx11FilePathManager'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::wstring
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\core\dx11filepathmanager.h(12): note: 'std::unordered_map<std::string,std::wstring,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::wstring
+          ]
+  Dx11Device.cpp
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(18): warning C4251: 'DX11::CDx11Object::m_strTypeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\core\dx11device.cpp(224): warning C4244: '=': 'const UINT'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\core\dx11device.cpp(225): warning C4244: '=': 'const UINT'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Debug.cpp
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(18): warning C4251: 'DX11::CDx11Object::m_strTypeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+  Dx11Transform.cpp
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(18): warning C4251: 'DX11::CDx11Object::m_strTypeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\component\dx11transform.h(29): warning C4251: 'DX11::CDx11Transform::m_vAxis': struct 'DX11::_tagVector3'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11types.h(272): note: 'DX11::_tagVector3' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(28): warning C4251: 'DX11::CDx11GameObject::m_ComponentList': class 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11GameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(28): note: 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(30): warning C4251: 'DX11::CDx11GameObject::m_FindList': class 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11GameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(28): note: 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(36): warning C4251: 'DX11::CDx11GameObject::m_ChildList': class 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11GameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(36): note: 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+  Dx11Script.cpp
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(18): warning C4251: 'DX11::CDx11Object::m_strTypeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+  Dx11Renderer.cpp
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(18): warning C4251: 'DX11::CDx11Object::m_strTypeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\rendering\dx11shader.h(36): warning C4251: 'DX11::CDx11Shader::m_mapConstantBuffer': class 'std::unordered_map<std::string,DX11::CDx11Shader::PCBUFFERINFO,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'DX11::CDx11Shader'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Shader::PCBUFFERINFO
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\rendering\dx11shader.h(36): note: 'std::unordered_map<std::string,DX11::CDx11Shader::PCBUFFERINFO,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Shader::PCBUFFERINFO
+          ]
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\resources\dx11resourcesmanager.h(12): warning C4251: 'DX11::CDx11ResourcesManager::m_mapMesh': class 'std::unordered_map<std::string,DX11::CDx11Mesh *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'DX11::CDx11ResourcesManager'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Mesh *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\resources\dx11resourcesmanager.h(12): note: 'std::unordered_map<std::string,DX11::CDx11Mesh *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Mesh *
+          ]
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\resources\dx11resourcesmanager.h(13): warning C4251: 'DX11::CDx11ResourcesManager::m_mapTexture': class 'std::unordered_map<std::string,DX11::CDx11Texture *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'DX11::CDx11ResourcesManager'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Texture *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\resources\dx11resourcesmanager.h(13): note: 'std::unordered_map<std::string,DX11::CDx11Texture *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Texture *
+          ]
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\resources\dx11resourcesmanager.h(14): warning C4251: 'DX11::CDx11ResourcesManager::m_mapSampler': class 'std::unordered_map<std::string,DX11::CDx11Sampler *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'DX11::CDx11ResourcesManager'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Sampler *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\resources\dx11resourcesmanager.h(14): note: 'std::unordered_map<std::string,DX11::CDx11Sampler *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Sampler *
+          ]
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\rendering\dx11shadermanager.h(12): warning C4251: 'DX11::CDx11ShaderManager::m_mapShader': class 'std::unordered_map<std::string,DX11::CDx11Shader *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'DX11::CDx11ShaderManager'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Shader *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\rendering\dx11shadermanager.h(12): note: 'std::unordered_map<std::string,DX11::CDx11Shader *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Shader *
+          ]
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\scene\dx11scene.h(17): warning C4251: 'DX11::CDx11Scene::m_vecLayer': class 'std::vector<DX11::CDx11Layer *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11Scene'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Layer *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\scene\dx11scene.h(17): note: 'std::vector<DX11::CDx11Layer *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Layer *
+          ]
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\scene\dx11scene.h(18): warning C4251: 'DX11::CDx11Scene::m_vecScript': class 'std::vector<DX11::CDx11Script *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11Scene'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Script *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\scene\dx11scene.h(18): note: 'std::vector<DX11::CDx11Script *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Script *
+          ]
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\scene\dx11scene.h(19): warning C4251: 'DX11::CDx11Scene::m_mapCamera': class 'std::unordered_map<std::string,DX11::CDx11GameObject *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'DX11::CDx11Scene'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11GameObject *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\scene\dx11scene.h(19): note: 'std::unordered_map<std::string,DX11::CDx11GameObject *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11GameObject *
+          ]
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\scene\dx11scene.h(21): warning C4251: 'DX11::CDx11Scene::m_FindList': class 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11Scene'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\scene\dx11scene.h(21): note: 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\scene\dx11scene.h(22): warning C4251: 'DX11::CDx11Scene::m_LightList': class 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11Scene'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\scene\dx11scene.h(21): note: 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\component\dx11camera.h(15): warning C4251: 'DX11::CDx11Camera::m_matView': struct 'DirectX::XMMATRIX'에서는 class 'DX11::CDx11Camera'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\windows kits\8.1\include\um\directxmath.h(395): note: 'DirectX::XMMATRIX' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\component\dx11camera.h(16): warning C4251: 'DX11::CDx11Camera::m_matProj': struct 'DirectX::XMMATRIX'에서는 class 'DX11::CDx11Camera'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\windows kits\8.1\include\um\directxmath.h(395): note: 'DirectX::XMMATRIX' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\component\dx11transform.h(29): warning C4251: 'DX11::CDx11Transform::m_vAxis': struct 'DX11::_tagVector3'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11types.h(272): note: 'DX11::_tagVector3' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(28): warning C4251: 'DX11::CDx11GameObject::m_ComponentList': class 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11GameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(28): note: 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(30): warning C4251: 'DX11::CDx11GameObject::m_FindList': class 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11GameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(28): note: 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(36): warning C4251: 'DX11::CDx11GameObject::m_ChildList': class 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11GameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\scene\dx11scene.h(21): note: 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\component\dx11material.h(20): warning C4251: 'DX11::CDx11Material::m_tInfo': struct 'DX11::_tagMaterial'에서는 class 'DX11::CDx11Material'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11types.h(904): note: 'DX11::_tagMaterial' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\rendering\dx11rendermanager.h(12): warning C4251: 'DX11::CDx11RenderManager::m_mapState': class 'std::unordered_map<std::string,DX11::CDx11RenderState *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'DX11::CDx11RenderManager'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11RenderState *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\rendering\dx11rendermanager.h(12): note: 'std::unordered_map<std::string,DX11::CDx11RenderState *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11RenderState *
+          ]
+  Dx11Material.cpp
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(18): warning C4251: 'DX11::CDx11Object::m_strTypeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\component\dx11material.h(20): warning C4251: 'DX11::CDx11Material::m_tInfo': struct 'DX11::_tagMaterial'에서는 class 'DX11::CDx11Material'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11types.h(904): note: 'DX11::_tagMaterial' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\resources\dx11resourcesmanager.h(12): warning C4251: 'DX11::CDx11ResourcesManager::m_mapMesh': class 'std::unordered_map<std::string,DX11::CDx11Mesh *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'DX11::CDx11ResourcesManager'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Mesh *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\resources\dx11resourcesmanager.h(12): note: 'std::unordered_map<std::string,DX11::CDx11Mesh *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Mesh *
+          ]
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\resources\dx11resourcesmanager.h(13): warning C4251: 'DX11::CDx11ResourcesManager::m_mapTexture': class 'std::unordered_map<std::string,DX11::CDx11Texture *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'DX11::CDx11ResourcesManager'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Texture *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\resources\dx11resourcesmanager.h(13): note: 'std::unordered_map<std::string,DX11::CDx11Texture *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Texture *
+          ]
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\resources\dx11resourcesmanager.h(14): warning C4251: 'DX11::CDx11ResourcesManager::m_mapSampler': class 'std::unordered_map<std::string,DX11::CDx11Sampler *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'DX11::CDx11ResourcesManager'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Sampler *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\resources\dx11resourcesmanager.h(14): note: 'std::unordered_map<std::string,DX11::CDx11Sampler *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Sampler *
+          ]
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\rendering\dx11shader.h(36): warning C4251: 'DX11::CDx11Shader::m_mapConstantBuffer': class 'std::unordered_map<std::string,DX11::CDx11Shader::PCBUFFERINFO,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'DX11::CDx11Shader'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Shader::PCBUFFERINFO
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\rendering\dx11shader.h(36): note: 'std::unordered_map<std::string,DX11::CDx11Shader::PCBUFFERINFO,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Shader::PCBUFFERINFO
+          ]
+  Dx11LightPoint.cpp
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(18): warning C4251: 'DX11::CDx11Object::m_strTypeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\component\dx11lightpoint.h(15): warning C4251: 'DX11::CDx11LightPoint::m_vPos': struct 'DX11::_tagVector3'에서는 class 'DX11::CDx11LightPoint'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11types.h(272): note: 'DX11::_tagVector3' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\component\dx11transform.h(29): warning C4251: 'DX11::CDx11Transform::m_vAxis': struct 'DX11::_tagVector3'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11types.h(272): note: 'DX11::_tagVector3' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\rendering\dx11shader.h(36): warning C4251: 'DX11::CDx11Shader::m_mapConstantBuffer': class 'std::unordered_map<std::string,DX11::CDx11Shader::PCBUFFERINFO,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'DX11::CDx11Shader'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Shader::PCBUFFERINFO
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\rendering\dx11shader.h(36): note: 'std::unordered_map<std::string,DX11::CDx11Shader::PCBUFFERINFO,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Shader::PCBUFFERINFO
+          ]
+  Dx11LightDir.cpp
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(18): warning C4251: 'DX11::CDx11Object::m_strTypeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\component\dx11lightdir.h(18): warning C4251: 'DX11::CDx11LightDir::m_vDir': struct 'DX11::_tagVector3'에서는 class 'DX11::CDx11LightDir'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11types.h(272): note: 'DX11::_tagVector3' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\component\dx11transform.h(29): warning C4251: 'DX11::CDx11Transform::m_vAxis': struct 'DX11::_tagVector3'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11types.h(272): note: 'DX11::_tagVector3' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\rendering\dx11shader.h(36): warning C4251: 'DX11::CDx11Shader::m_mapConstantBuffer': class 'std::unordered_map<std::string,DX11::CDx11Shader::PCBUFFERINFO,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'DX11::CDx11Shader'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Shader::PCBUFFERINFO
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\rendering\dx11shader.h(36): note: 'std::unordered_map<std::string,DX11::CDx11Shader::PCBUFFERINFO,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Shader::PCBUFFERINFO
+          ]
+  Dx11Light.cpp
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(18): warning C4251: 'DX11::CDx11Object::m_strTypeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\rendering\dx11shader.h(36): warning C4251: 'DX11::CDx11Shader::m_mapConstantBuffer': class 'std::unordered_map<std::string,DX11::CDx11Shader::PCBUFFERINFO,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'DX11::CDx11Shader'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Shader::PCBUFFERINFO
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\rendering\dx11shader.h(36): note: 'std::unordered_map<std::string,DX11::CDx11Shader::PCBUFFERINFO,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11Shader::PCBUFFERINFO
+          ]
+  Dx11Component.cpp
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(18): warning C4251: 'DX11::CDx11Object::m_strTypeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(28): warning C4251: 'DX11::CDx11GameObject::m_ComponentList': class 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11GameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(28): note: 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(30): warning C4251: 'DX11::CDx11GameObject::m_FindList': class 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11GameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(28): note: 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(36): warning C4251: 'DX11::CDx11GameObject::m_ChildList': class 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11GameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(36): note: 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+  Dx11Camera.cpp
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11object.h(18): warning C4251: 'DX11::CDx11Object::m_strTypeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\component\dx11camera.h(15): warning C4251: 'DX11::CDx11Camera::m_matView': struct 'DirectX::XMMATRIX'에서는 class 'DX11::CDx11Camera'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\windows kits\8.1\include\um\directxmath.h(395): note: 'DirectX::XMMATRIX' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\component\dx11camera.h(16): warning C4251: 'DX11::CDx11Camera::m_matProj': struct 'DirectX::XMMATRIX'에서는 class 'DX11::CDx11Camera'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\windows kits\8.1\include\um\directxmath.h(395): note: 'DirectX::XMMATRIX' 선언을 참조하십시오.
+c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\component\dx11transform.h(29): warning C4251: 'DX11::CDx11Transform::m_vAxis': struct 'DX11::_tagVector3'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\users\aiuv0\downloads\google_drive\directteam\_hsj\dx_framework\dx11engine\include\dx11types.h(272): note: 'DX11::_tagVector3' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
+     C:\Users\aiuv0\Downloads\Google_Drive\DirectTeam\_HSJ\DX_Framework\/Dx11Engine/Bin_Debug\Dx11Engine_Debug.lib 라이브러리 및 C:\Users\aiuv0\Downloads\Google_Drive\DirectTeam\_HSJ\DX_Framework\/Dx11Engine/Bin_Debug\Dx11Engine_Debug.exp 개체를 생성하고 있습니다.
+DirectXTex.lib(BC.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(BC.obj)' 또는 'C:\Users\aiuv0\Downloads\Google_Drive\DirectTeam\_HSJ\DX_Framework\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(BC4BC5.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(BC4BC5.obj)' 또는 'C:\Users\aiuv0\Downloads\Google_Drive\DirectTeam\_HSJ\DX_Framework\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(BC6HBC7.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(BC6HBC7.obj)' 또는 'C:\Users\aiuv0\Downloads\Google_Drive\DirectTeam\_HSJ\DX_Framework\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexCompress.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexCompress.obj)' 또는 'C:\Users\aiuv0\Downloads\Google_Drive\DirectTeam\_HSJ\DX_Framework\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexConvert.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexConvert.obj)' 또는 'C:\Users\aiuv0\Downloads\Google_Drive\DirectTeam\_HSJ\DX_Framework\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexD3D11.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexD3D11.obj)' 또는 'C:\Users\aiuv0\Downloads\Google_Drive\DirectTeam\_HSJ\DX_Framework\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexDDS.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexDDS.obj)' 또는 'C:\Users\aiuv0\Downloads\Google_Drive\DirectTeam\_HSJ\DX_Framework\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexImage.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexImage.obj)' 또는 'C:\Users\aiuv0\Downloads\Google_Drive\DirectTeam\_HSJ\DX_Framework\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexMipMaps.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexMipMaps.obj)' 또는 'C:\Users\aiuv0\Downloads\Google_Drive\DirectTeam\_HSJ\DX_Framework\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexTGA.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexTGA.obj)' 또는 'C:\Users\aiuv0\Downloads\Google_Drive\DirectTeam\_HSJ\DX_Framework\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexUtil.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexUtil.obj)' 또는 'C:\Users\aiuv0\Downloads\Google_Drive\DirectTeam\_HSJ\DX_Framework\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexWIC.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexWIC.obj)' 또는 'C:\Users\aiuv0\Downloads\Google_Drive\DirectTeam\_HSJ\DX_Framework\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  Dx11Engine.vcxproj -> C:\Users\aiuv0\Downloads\Google_Drive\DirectTeam\_HSJ\DX_Framework\/Dx11Engine/Bin_Debug\Dx11Engine_Debug.dll
+  Dx11Engine.vcxproj -> C:\Users\aiuv0\Downloads\Google_Drive\DirectTeam\_HSJ\DX_Framework\/Dx11Engine/Bin_Debug\Dx11Engine_Debug.pdb (Full PDB)
+  0개 파일이 복사되었습니다.
+  .\Dx11Engine\Bin_Debug\Default.cso
+  .\Dx11Engine\Bin_Debug\Dx11Engine_Debug.dll
+  .\Dx11Engine\Bin_Debug\Dx11Engine_Debug.lib
+  .\Dx11Engine\Bin_Debug\Sky.cso
+  4개 파일이 복사되었습니다.
+  0개 파일이 복사되었습니다.
+  .\Dx11Engine\Bin_Debug\Default.cso
+  .\Dx11Engine\Bin_Debug\Dx11Engine_Debug.dll
+  .\Dx11Engine\Bin_Debug\Dx11Engine_Debug.lib
+  .\Dx11Engine\Bin_Debug\Sky.cso
+  4개 파일이 복사되었습니다.
+  0개 파일이 복사되었습니다.
