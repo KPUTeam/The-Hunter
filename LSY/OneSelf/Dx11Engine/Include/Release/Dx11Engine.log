@@ -1,0 +1,36 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Dx11Input.cpp
+c:\users\lsy\documents\github\directx11\_lsy\oneself\dx11engine\include\core\../Dx11Object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\lsy\documents\github\directx11\_lsy\oneself\dx11engine\include\core\../Dx11Object.h(18): warning C4251: 'DX11::CDx11Object::m_strTypeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\lsy\documents\github\directx11\_lsy\oneself\dx11engine\include\core\Dx11Input.h(12): warning C4251: 'DX11::CDx11Input::m_mapKey': class 'std::unordered_map<std::string,DX11::PKEYINFO,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'DX11::CDx11Input'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::PKEYINFO
+          ]
+  c:\users\lsy\documents\github\directx11\_lsy\oneself\dx11engine\include\core\Dx11Input.h(12): note: 'std::unordered_map<std::string,DX11::PKEYINFO,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::PKEYINFO
+          ]
+     C:\Users\LSY\Documents\GitHub\DirectX11\_LSY\Oneself\/Dx11Engine/Bin\Dx11Engine.lib 라이브러리 및 C:\Users\LSY\Documents\GitHub\DirectX11\_LSY\Oneself\/Dx11Engine/Bin\Dx11Engine.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  56 of 4655 functions ( 1.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    141 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  Dx11Engine.vcxproj -> C:\Users\LSY\Documents\GitHub\DirectX11\_LSY\Oneself\/Dx11Engine/Bin\Dx11Engine.dll
+  Dx11Engine.vcxproj -> C:\Users\LSY\Documents\GitHub\DirectX11\_LSY\Oneself\/Dx11Engine/Bin\Dx11Engine.pdb (Full PDB)
+  0개 파일이 복사되었습니다.
+  0개 파일이 복사되었습니다.
+  .\Dx11Engine\Bin\Dx11Engine.dll
+  .\Dx11Engine\Bin\Dx11Engine.lib
+  2개 파일이 복사되었습니다.
+  0개 파일이 복사되었습니다.
+  0개 파일이 복사되었습니다.
+  .\Dx11Engine\Bin\Dx11Engine.dll
+  .\Dx11Engine\Bin\Dx11Engine.lib
+  2개 파일이 복사되었습니다.
