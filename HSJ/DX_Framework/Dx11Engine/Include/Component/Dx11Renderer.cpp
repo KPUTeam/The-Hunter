@@ -14,16 +14,17 @@
 
 DX11_USING
 
-CDx11Renderer::CDx11Renderer()	:
+CDx11Renderer::CDx11Renderer() :
 	m_pMesh(NULL),
 	m_pShader(NULL),
 	m_pMaterial(NULL)
 {
 	m_eComType = CT_RENDERER;
+	m_eRenderType = RT_NORMAL;
 	memset(m_pRenderState, 0, sizeof(CDx11RenderState*) * RST_END);
 }
 
-CDx11Renderer::CDx11Renderer(const CDx11Renderer & renderer)	:
+CDx11Renderer::CDx11Renderer(const CDx11Renderer & renderer) :
 	CDx11Component(renderer)
 {
 	*this = renderer;
@@ -55,6 +56,16 @@ CDx11Renderer::~CDx11Renderer()
 	SAFE_RELEASE(m_pMaterial);
 	SAFE_RELEASE(m_pMesh);
 	SAFE_RELEASE(m_pShader);
+}
+
+RENDER_TYPE CDx11Renderer::GetRenderType() const
+{
+	return m_eRenderType;
+}
+
+void CDx11Renderer::SetRenderType(RENDER_TYPE eRenderType)
+{
+	m_eRenderType = eRenderType;
 }
 
 bool CDx11Renderer::Init()
@@ -128,8 +139,8 @@ void CDx11Renderer::CreateMaterial(const string & strDiffuseTexKey,
 	m_pMaterial->SetDiffuseSampler(strDiffuseSampKey);
 }
 
-void CDx11Renderer::CreateMaterial(const string & strDiffuseTexKey, 
-	TCHAR * pFileName, const string & strPathKey, 
+void CDx11Renderer::CreateMaterial(const string & strDiffuseTexKey,
+	TCHAR * pFileName, const string & strPathKey,
 	const string & strDiffuseSampKey)
 {
 	SAFE_RELEASE(m_pMaterial);
@@ -150,6 +161,11 @@ void CDx11Renderer::SetRenderState(const string & strKey)
 
 	SAFE_RELEASE(m_pRenderState[pRS->GetStateType()]);
 	m_pRenderState[pRS->GetStateType()] = pRS;
+
+	if (pRS->GetStateType() == RST_BLEND && m_eRenderType == RT_NORMAL)
+	{
+		m_eRenderType = RT_ALPHA1;
+	}
 }
 
 void CDx11Renderer::SetTransformCBuffer()

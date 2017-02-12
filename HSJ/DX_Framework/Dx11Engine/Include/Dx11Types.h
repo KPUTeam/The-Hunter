@@ -14,6 +14,7 @@
 #include <crtdbg.h>
 #include <conio.h>
 #include <functional>
+#include <algorithm>
 
 using namespace std;
 using namespace DirectX;
@@ -51,7 +52,7 @@ typedef struct _tagResolution
 	}
 }RESOLUTION, *PRESOLUTION;
 
-const RESOLUTION	g_tRS[RT_MAX]	=
+const RESOLUTION	g_tRS[RT_MAX] =
 {
 	RESOLUTION(800, 600),
 	RESOLUTION(1280, 720),
@@ -501,6 +502,12 @@ typedef struct _tagVector3 :
 		return v;
 	}
 
+	float Distance(const _tagVector3& v)	const
+	{
+		_tagVector3	v1 = *this - v;
+		return v1.Length();
+	}
+
 	float Dot(const _tagVector3& v)	const
 	{
 		return x * v.x + y * v.y + z * v.z;
@@ -860,7 +867,7 @@ typedef	struct _tagBumpVertex
 	}
 
 	_tagBumpVertex(float x, float y, float z, float nx, float ny, float nz,
-		float tx, float ty, float tz, float ux, float uy)	:
+		float tx, float ty, float tz, float ux, float uy) :
 		vPos(x, y, z),
 		vNormal(nx, ny, nz),
 		vTangent(tx, ty, tz),

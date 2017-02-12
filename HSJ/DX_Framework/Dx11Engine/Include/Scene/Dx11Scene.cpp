@@ -8,10 +8,11 @@
 #include "../Component/Dx11LightPoint.h"
 #include "../Component/Dx11Renderer.h"
 #include "../Component/Dx11Material.h"
+#include "../Rendering/Dx11RenderManager.h"
 
 DX11_USING
 
-CDx11Scene::CDx11Scene()	:
+CDx11Scene::CDx11Scene() :
 	m_pSky(NULL)
 {
 	SetTypeName<CDx11Scene>();
@@ -19,6 +20,7 @@ CDx11Scene::CDx11Scene()	:
 
 CDx11Scene::~CDx11Scene()
 {
+	DX11_GET_SINGLE(CDx11RenderManager)->ClearRenderList();
 	SAFE_RELEASE(m_pSky);
 	Safe_Release_VecList(m_LightList);
 	SAFE_RELEASE(m_pMainCamera);
@@ -45,25 +47,33 @@ bool CDx11Scene::Init()
 	SAFE_RELEASE(pLayer);
 
 	// 기본 카메라를 생성한다.
-	m_pMainCamera = CreateCamera("MainCamera", DX11_PI / 3.f,0.1f, 1000.f);
+	m_pMainCamera = CreateCamera("MainCamera", DX11_PI / 3.f,
+		0.1f, 1000.f);
+
 	CDx11Transform*	pTr = m_pMainCamera->GetTransform();
-	pTr->SetWorldPos(0.f, 15.f, -15.f);
-	pTr->SetLocalRotX(30.f);
+
+	pTr->SetWorldPos(0.f, 0.f, -5.f);
+
 	SAFE_RELEASE(pTr);
 
-	// LightDir
+	// 조명을 생성한다.
 	/*CDx11GameObject*	pLightDir = CreateLight(LT_DIR, "LightDir");
+
 	pTr = pLightDir->GetTransform();
+
 	pTr->SetWorldRotX(DX11_PI / 4.f);
+
 	SAFE_RELEASE(pTr);
+
 	SAFE_RELEASE(pLightDir);*/
-
-
-	// LightPoint
 	CDx11GameObject*	pLightPoint = CreateLight(LT_POINT, "LightPoint");
+
 	pTr = pLightPoint->GetTransform();
-	pTr->SetWorldPos(0.f, 15.f, -15.f);
+
+	pTr->SetWorldPos(0.f, 3.f, -3.f);
+
 	SAFE_RELEASE(pTr);
+
 	SAFE_RELEASE(pLightPoint);
 
 	return true;
@@ -87,6 +97,11 @@ int CDx11Scene::Update(float fTime)
 	if (m_pSky)
 	{
 		m_pSky->Update(fTime);
+		//CDx11Transform*	pTr = m_pSky->GetTransform();
+
+		//pTr->RotationWorld(DX11_PI / 9.f, fTime, AXIS_Y);
+
+		//SAFE_RELEASE(pTr);
 	}
 
 	vector<CDx11Script*>::iterator	iter1;
@@ -213,7 +228,7 @@ void CDx11Scene::Render(float fTime)
 {
 	m_pMainCamera->Render(fTime);
 
-	if(m_pSky)
+	if (m_pSky)
 		m_pSky->Render(fTime);
 
 	vector<CDx11Script*>::iterator	iter1;
@@ -263,6 +278,8 @@ void CDx11Scene::Render(float fTime)
 		else
 			++iter;
 	}
+
+	DX11_GET_SINGLE(CDx11RenderManager)->Render(fTime);
 }
 
 CDx11Layer * CDx11Scene::CreateLayer(const string & strTag)
@@ -301,7 +318,7 @@ CDx11Layer * CDx11Scene::FindLayer(const string & strTag)
 	return NULL;
 }
 
-CDx11GameObject * CDx11Scene::CreateCamera(const string & strTag, 
+CDx11GameObject * CDx11Scene::CreateCamera(const string & strTag,
 	float fAngle, float fNear, float fFar)
 {
 	CDx11GameObject*	pCameraObj = FindCamera(strTag);
@@ -312,7 +329,7 @@ CDx11GameObject * CDx11Scene::CreateCamera(const string & strTag,
 		return NULL;
 	}
 
-	pCameraObj	= CDx11GameObject::Create(strTag);
+	pCameraObj = CDx11GameObject::Create(strTag);
 
 	CDx11Camera*	pCamera = (CDx11Camera*)pCameraObj->AddComponent<CDx11Camera>();
 
@@ -417,7 +434,7 @@ CDx11GameObject * CDx11Scene::CreateLight(LIGHT_TYPE eType, const string & strTa
 	return pLightObj;
 }
 
-void CDx11Scene::CreateSky(const string & strTexKey, TCHAR * pFileName, 
+void CDx11Scene::CreateSky(const string & strTexKey, TCHAR * pFileName,
 	const string & strPathKey)
 {
 	//SAFE_RELEASE(m_pSky);

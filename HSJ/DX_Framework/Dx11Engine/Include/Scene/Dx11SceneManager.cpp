@@ -6,7 +6,7 @@ DX11_USING
 
 DX11_DEFINITION_SINGLE(CDx11SceneManager)
 
-CDx11SceneManager::CDx11SceneManager()	:
+CDx11SceneManager::CDx11SceneManager() :
 	m_pCurScene(NULL),
 	m_pNextScene(NULL),
 	m_pPrevScene(NULL)

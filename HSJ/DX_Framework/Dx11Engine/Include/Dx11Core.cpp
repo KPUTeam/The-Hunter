@@ -14,13 +14,14 @@
 #include "Core\Dx11Input.h"
 #include "Core\Dx11Scheduler.h"
 #include "Rendering\Dx11RenderManager.h"
+#include "Core\Dx11CollisionManager.h"
 
 DX11_USING
 
 CDx11Core* CDx11Core::m_pInst = NULL;
 bool CDx11Core::m_bLoop = true;
 
-CDx11Core::CDx11Core()	:
+CDx11Core::CDx11Core() :
 	m_pWindow(NULL)
 {
 	srand(GetTickCount());
@@ -38,6 +39,7 @@ CDx11Core::~CDx11Core()
 	DX11_DESTROY_SINGLE(CDx11SceneManager);
 	DX11_DESTROY_SINGLE(CDx11GameObjectManager);
 	DX11_DESTROY_SINGLE(CDx11RenderManager);
+	DX11_DESTROY_SINGLE(CDx11CollisionManager);
 	DX11_DESTROY_SINGLE(CDx11TimerManager);
 	DX11_DESTROY_SINGLE(CDx11ResourcesManager);
 	DX11_DESTROY_SINGLE(CDx11ShaderManager);
@@ -62,7 +64,7 @@ void CDx11Core::DestroyInst()
 }
 
 bool CDx11Core::Init(TCHAR * pTitle, TCHAR * pClass,
-	HINSTANCE hInst, int iIconID, int iSmallIconID, 
+	HINSTANCE hInst, int iIconID, int iSmallIconID,
 	RESOLUTION_TYPE eRT, bool bWindowMode, WNDPROC pProc)
 {
 	// 윈도우 창을 생성한다.
@@ -94,6 +96,9 @@ bool CDx11Core::Init(TCHAR * pTitle, TCHAR * pClass,
 	if (!DX11_GET_SINGLE(CDx11Scheduler)->Init())
 		return false;
 
+	if (!DX11_GET_SINGLE(CDx11CollisionManager)->Init())
+		return false;
+
 	// 렌더링 관리자를 초기화한다.
 	if (!DX11_GET_SINGLE(CDx11RenderManager)->Init())
 		return false;
@@ -109,7 +114,7 @@ bool CDx11Core::Init(TCHAR * pTitle, TCHAR * pClass,
 	// 입력 관리자를 초기화한다.
 	if (!DX11_GET_SINGLE(CDx11Input)->Init())
 		return false;
-	
+
 	// 오브젝트 관리자를 초기화한다.
 	if (!DX11_GET_SINGLE(CDx11GameObjectManager)->Init())
 		return false;
@@ -186,6 +191,7 @@ int CDx11Core::LateUpdate(float fTime)
 void CDx11Core::Collision(float fTime)
 {
 	DX11_GET_SINGLE(CDx11SceneManager)->Collision(fTime);
+	DX11_GET_SINGLE(CDx11CollisionManager)->Collision(fTime);
 }
 
 void CDx11Core::Render(float fTime)

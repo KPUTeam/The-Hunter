@@ -4,6 +4,7 @@
 #include "../Component/Dx11Transform.h"
 #include "../Component/Dx11Renderer.h"
 #include "Dx11GameObjectManager.h"
+#include "../Rendering/Dx11RenderManager.h"
 
 DX11_USING
 
@@ -57,6 +58,7 @@ CDx11GameObject::~CDx11GameObject()
 	Safe_Release_VecList(m_ChildList);
 	SAFE_RELEASE(m_pTransform);
 	Safe_Release_VecList(m_ComponentList);
+	DX11_GET_SINGLE(CDx11RenderManager)->ReleaseObjCount();
 }
 
 CDx11GameObject * CDx11GameObject::Create(const string & strTag,
@@ -67,6 +69,7 @@ CDx11GameObject * CDx11GameObject::Create(const string & strTag,
 	switch (ot)
 	{
 	case OT_NORMAL:
+		DX11_GET_SINGLE(CDx11RenderManager)->AddObjCount();
 		pObj = new CDx11GameObject;
 
 		if (!pObj->Init())
@@ -88,8 +91,8 @@ CDx11GameObject * CDx11GameObject::Create(const string & strTag,
 			pObj->Release();*/
 		DX11_GET_SINGLE(CDx11GameObjectManager)->AddPrototype(pObj, strTag);
 		break;
-
 	case OT_CLONE:
+		DX11_GET_SINGLE(CDx11RenderManager)->AddObjCount();
 		pObj = DX11_GET_SINGLE(CDx11GameObjectManager)->CreateObject(strTag);
 		break;
 	}

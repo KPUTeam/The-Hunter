@@ -58,8 +58,7 @@ bool CDx11ShaderManager::Init()
 	// Sky Shader
 	pEntry[ST_VERTEX] = "SkyVS";
 	pEntry[ST_PIXEL] = "SkyPS";
-	pShader = LoadShader(SKY_SHADER, L"Sky.fx",
-		pEntry, 5, 0);
+	pShader = LoadShader(SKY_SHADER, L"Sky.fx", pEntry, 5, 0);
 
 	AddInputElement(SKY_SHADER, "POSITION", 0, DXGI_FORMAT_R32G32B32_FLOAT,
 		0, 12, D3D11_INPUT_PER_VERTEX_DATA, 0);

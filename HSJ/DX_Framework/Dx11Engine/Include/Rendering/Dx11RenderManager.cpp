@@ -2,6 +2,11 @@
 #include "Dx11DepthStencilState.h"
 #include "Dx11RasterizerState.h"
 #include "Dx11BlendState.h"
+#include "../GameObject/Dx11GameObject.h"
+#include "../Component/Dx11Renderer.h"
+#include "../Scene/Dx11Scene.h"
+#include "../Scene/Dx11SceneManager.h"
+#include "../Component/Dx11Transform.h"
 
 DX11_USING
 
@@ -9,11 +14,56 @@ DX11_DEFINITION_SINGLE(CDx11RenderManager)
 
 CDx11RenderManager::CDx11RenderManager()
 {
+	for (int i = 0; i < RT_END; ++i)
+	{
+		m_RenderList[i].reserve(100);
+	}
 }
 
 CDx11RenderManager::~CDx11RenderManager()
 {
 	Safe_Release_Map(m_mapState);
+}
+
+void CDx11RenderManager::AddObjCount()
+{
+	++m_iObjCount;
+}
+
+void CDx11RenderManager::ReleaseObjCount()
+{
+	--m_iObjCount;
+}
+
+void CDx11RenderManager::AddRenderObject(CDx11GameObject * pObj)
+{
+	CDx11Renderer*	pRenderer = (CDx11Renderer*)pObj->FindComponentFromType(CT_RENDERER);
+
+	if (pRenderer)
+	{
+		CDx11Component*	pUI = pObj->FindComponentFromType(CT_UI);
+		if (pUI)
+		{
+			SAFE_RELEASE(pUI);
+			m_RenderList[RT_UI].push_back(pObj);
+		}
+
+		else
+			m_RenderList[pRenderer->GetRenderType()].push_back(pObj);
+	}
+
+	else
+		m_RenderList[RT_NORMAL].push_back(pObj);
+
+	SAFE_RELEASE(pRenderer);
+}
+
+void CDx11RenderManager::ClearRenderList()
+{
+	for (int i = 0; i < RT_END; ++i)
+	{
+		m_RenderList[i].clear();
+	}
 }
 
 bool CDx11RenderManager::Init()
@@ -43,6 +93,32 @@ bool CDx11RenderManager::Init()
 	SAFE_RELEASE(pState);
 
 	return true;
+}
+
+void CDx11RenderManager::Render(float fTime)
+{
+	for (int i = 0; i < RT_END; ++i)
+	{
+		// 정렬한다.
+		if (i == RT_NORMAL)
+			sort(m_RenderList[i].begin(), m_RenderList[i].end(), CDx11RenderManager::SortDist);
+
+		else if (i != RT_UI)
+			sort(m_RenderList[i].begin(), m_RenderList[i].end(), CDx11RenderManager::SortDistInv);
+
+		else
+			sort(m_RenderList[i].begin(), m_RenderList[i].end(), CDx11RenderManager::SortUI);
+
+		vector<CDx11GameObject*>::iterator	iter;
+		vector<CDx11GameObject*>::iterator	iterEnd = m_RenderList[i].end();
+
+		for (iter = m_RenderList[i].begin(); iter != iterEnd; ++iter)
+		{
+			(*iter)->Render(fTime);
+		}
+	}
+
+	ClearRenderList();
 }
 
 CDx11DepthStencilState * CDx11RenderManager::CreateDepthStencilState(
@@ -159,4 +235,87 @@ CDx11RenderState * CDx11RenderManager::FindRenderState(const string & strKey)
 	iter->second->AddRef();
 
 	return iter->second;
+}
+
+bool CDx11RenderManager::SortDist(CDx11GameObject * pObj1, CDx11GameObject * pObj2)
+{
+	CDx11Scene*	pScene = DX11_GET_SINGLE(CDx11SceneManager)->GetCurrentScene();
+
+	CDx11GameObject*	pCameraObj = pScene->GetMainCamera();
+
+	CDx11Transform*	pCamTr = pCameraObj->GetTransform();
+
+	CDx11Transform*	pTr1 = pObj1->GetTransform();
+	CDx11Transform*	pTr2 = pObj2->GetTransform();
+
+	Vec3	vCamPos = pCamTr->GetWorldPos();
+	Vec3	vPos1 = pTr1->GetWorldPos();
+	Vec3	vPos2 = pTr2->GetWorldPos();
+
+	float	fDist1 = vPos1.Distance(vCamPos);
+	float	fDist2 = vPos2.Distance(vCamPos);
+
+	SAFE_RELEASE(pTr1);
+	SAFE_RELEASE(pTr2);
+
+	SAFE_RELEASE(pCamTr);
+
+	SAFE_RELEASE(pCameraObj);
+
+	SAFE_RELEASE(pScene);
+
+	if (fDist1 > fDist2)
+		return true;
+
+	return false;
+}
+
+bool CDx11RenderManager::SortDistInv(CDx11GameObject * pObj1, CDx11GameObject * pObj2)
+{
+	CDx11Scene*	pScene = DX11_GET_SINGLE(CDx11SceneManager)->GetCurrentScene();
+
+	CDx11GameObject*	pCameraObj = pScene->GetMainCamera();
+
+	CDx11Transform*	pCamTr = pCameraObj->GetTransform();
+
+	CDx11Transform*	pTr1 = pObj1->GetTransform();
+	CDx11Transform*	pTr2 = pObj2->GetTransform();
+
+	Vec3	vCamPos = pCamTr->GetWorldPos();
+	Vec3	vPos1 = pTr1->GetWorldPos();
+	Vec3	vPos2 = pTr2->GetWorldPos();
+
+	float	fDist1 = vPos1.Distance(vCamPos);
+	float	fDist2 = vPos2.Distance(vCamPos);
+
+	SAFE_RELEASE(pTr1);
+	SAFE_RELEASE(pTr2);
+
+	SAFE_RELEASE(pCamTr);
+
+	SAFE_RELEASE(pCameraObj);
+
+	SAFE_RELEASE(pScene);
+
+	if (fDist1 < fDist2)
+		return true;
+
+	return false;
+}
+
+bool CDx11RenderManager::SortUI(CDx11GameObject * pObj1, CDx11GameObject * pObj2)
+{
+	CDx11Transform*	pTr1 = pObj1->GetTransform();
+	CDx11Transform*	pTr2 = pObj2->GetTransform();
+
+	Vec3	vPos1 = pTr1->GetWorldPos();
+	Vec3	vPos2 = pTr2->GetWorldPos();
+
+	SAFE_RELEASE(pTr1);
+	SAFE_RELEASE(pTr2);
+
+	if (vPos1.z > vPos2.z)
+		return true;
+
+	return false;
 }

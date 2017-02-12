@@ -154,6 +154,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Component\Dx11Camera.h" />
+    <ClInclude Include="Component\Dx11Collider.h" />
+    <ClInclude Include="Component\Dx11ColliderSphere.h" />
     <ClInclude Include="Component\Dx11Component.h" />
     <ClInclude Include="Component\Dx11Light.h" />
     <ClInclude Include="Component\Dx11LightDir.h" />
@@ -162,6 +164,7 @@
     <ClInclude Include="Component\Dx11Renderer.h" />
     <ClInclude Include="Component\Dx11Script.h" />
     <ClInclude Include="Component\Dx11Transform.h" />
+    <ClInclude Include="Core\Dx11CollisionManager.h" />
     <ClInclude Include="Core\Dx11Debug.h" />
     <ClInclude Include="Core\Dx11Device.h" />
     <ClInclude Include="Core\Dx11FilePathManager.h" />
@@ -197,6 +200,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Component\Dx11Camera.cpp" />
+    <ClCompile Include="Component\Dx11Collider.cpp" />
+    <ClCompile Include="Component\Dx11ColliderSphere.cpp" />
     <ClCompile Include="Component\Dx11Component.cpp" />
     <ClCompile Include="Component\Dx11Light.cpp" />
     <ClCompile Include="Component\Dx11LightDir.cpp" />
@@ -205,6 +210,7 @@
     <ClCompile Include="Component\Dx11Renderer.cpp" />
     <ClCompile Include="Component\Dx11Script.cpp" />
     <ClCompile Include="Component\Dx11Transform.cpp" />
+    <ClCompile Include="Core\Dx11CollisionManager.cpp" />
     <ClCompile Include="Core\Dx11Debug.cpp" />
     <ClCompile Include="Core\Dx11Device.cpp" />
     <ClCompile Include="Core\Dx11FilePathManager.cpp" />

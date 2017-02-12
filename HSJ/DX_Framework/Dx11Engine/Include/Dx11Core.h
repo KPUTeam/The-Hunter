@@ -10,7 +10,7 @@ private:
 	CDx11Core();
 	~CDx11Core();
 
-private:	
+private:
 	static CDx11Core*	m_pInst;
 
 public:

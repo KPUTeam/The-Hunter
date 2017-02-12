@@ -19,6 +19,11 @@ private:
 	class CDx11Shader*		m_pShader;
 	class CDx11Material*	m_pMaterial;
 	class CDx11RenderState*	m_pRenderState[RST_END];
+	RENDER_TYPE				m_eRenderType;
+
+public:
+	RENDER_TYPE GetRenderType()	const;
+	void SetRenderType(RENDER_TYPE eRenderType);
 
 public:
 	virtual bool Init();
@@ -31,7 +36,8 @@ public:
 	void SetMesh(const string& strKey);
 	void SetShader(const string& strKey);
 	void SetMaterial(CDx11Material* pMtrl);
-	void CreateMaterial(const string& strDiffuseTexKey, const string& strDiffuseSampKey = DEFAULT_SAMPLER);
+	void CreateMaterial(const string& strDiffuseTexKey,
+		const string& strDiffuseSampKey = DEFAULT_SAMPLER);
 	void CreateMaterial(const string& strDiffuseTexKey,
 		TCHAR* pFileName, const string& strPathKey = TEXTURE_PATH,
 		const string& strDiffuseSampKey = DEFAULT_SAMPLER);
