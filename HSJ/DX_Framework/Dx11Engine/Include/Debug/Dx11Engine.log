@@ -1,0 +1,153 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Dx11GameObject.cpp
+c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\dx11object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\dx11object.h(18): warning C4251: 'DX11::CDx11Object::m_strTypeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(28): warning C4251: 'DX11::CDx11GameObject::m_ComponentList': class 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11GameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+  c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(28): note: 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(30): warning C4251: 'DX11::CDx11GameObject::m_FindList': class 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11GameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+  c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(28): note: 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(36): warning C4251: 'DX11::CDx11GameObject::m_ChildList': class 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11GameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+  c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(36): note: 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\scene\dx11scene.h(17): warning C4251: 'DX11::CDx11Scene::m_vecLayer': class 'std::vector<DX11::CDx11Layer *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11Scene'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Layer *
+          ]
+  c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\scene\dx11scene.h(17): note: 'std::vector<DX11::CDx11Layer *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Layer *
+          ]
+c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\scene\dx11scene.h(18): warning C4251: 'DX11::CDx11Scene::m_vecScript': class 'std::vector<DX11::CDx11Script *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11Scene'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Script *
+          ]
+  c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\scene\dx11scene.h(18): note: 'std::vector<DX11::CDx11Script *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Script *
+          ]
+c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\scene\dx11scene.h(19): warning C4251: 'DX11::CDx11Scene::m_mapCamera': class 'std::unordered_map<std::string,DX11::CDx11GameObject *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'DX11::CDx11Scene'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11GameObject *
+          ]
+  c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\scene\dx11scene.h(19): note: 'std::unordered_map<std::string,DX11::CDx11GameObject *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11GameObject *
+          ]
+c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\scene\dx11scene.h(21): warning C4251: 'DX11::CDx11Scene::m_FindList': class 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11Scene'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+  c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(36): note: 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\scene\dx11scene.h(22): warning C4251: 'DX11::CDx11Scene::m_LightList': class 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11Scene'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+  c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(36): note: 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\scene\dx11layer.h(17): warning C4251: 'DX11::CDx11Layer::m_ObjList': class 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11Layer'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+  c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(36): note: 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\scene\dx11layer.h(19): warning C4251: 'DX11::CDx11Layer::m_FindList': class 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11Layer'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+  c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\gameobject\dx11gameobject.h(36): note: 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\component\dx11transform.h(29): warning C4251: 'DX11::CDx11Transform::m_vAxis': struct 'DX11::_tagVector3'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\dx11types.h(273): note: 'DX11::_tagVector3' 선언을 참조하십시오.
+c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\gameobject\dx11gameobjectmanager.h(12): warning C4251: 'DX11::CDx11GameObjectManager::m_mapPrototype': class 'std::unordered_map<std::string,DX11::CDx11GameObject *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'DX11::CDx11GameObjectManager'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11GameObject *
+          ]
+  c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\scene\dx11scene.h(19): note: 'std::unordered_map<std::string,DX11::CDx11GameObject *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11GameObject *
+          ]
+c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\rendering\dx11rendermanager.h(12): warning C4251: 'DX11::CDx11RenderManager::m_mapState': class 'std::unordered_map<std::string,DX11::CDx11RenderState *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'DX11::CDx11RenderManager'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11RenderState *
+          ]
+  c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\rendering\dx11rendermanager.h(12): note: 'std::unordered_map<std::string,DX11::CDx11RenderState *,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=std::string,
+              _Ty=DX11::CDx11RenderState *
+          ]
+c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\rendering\dx11rendermanager.h(13): warning C4251: 'DX11::CDx11RenderManager::m_RenderList': class 'std::vector<DX11::CDx11GameObject *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11RenderManager'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+  c:\users\aiuv0\documents\kpu\the-hunter\hsj\dx_framework\dx11engine\include\rendering\dx11rendermanager.h(13): note: 'std::vector<DX11::CDx11GameObject *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+  Dx11Engine.vcxproj -> C:\Users\aiuv0\Documents\KPU\The-Hunter\HSJ\DX_Framework\/Dx11Engine/Bin_Debug\Dx11Engine_Debug.dll
+  Dx11Engine.vcxproj -> C:\Users\aiuv0\Documents\KPU\The-Hunter\HSJ\DX_Framework\/Dx11Engine/Bin_Debug\Dx11Engine_Debug.pdb (Full PDB)
+  0개 파일이 복사되었습니다.
+  .\Dx11Engine\Bin_Debug\Dx11Engine_Debug.dll
+  1개 파일이 복사되었습니다.
+  0개 파일이 복사되었습니다.
+  .\Dx11Engine\Bin_Debug\Dx11Engine_Debug.dll
+  1개 파일이 복사되었습니다.
+  0개 파일이 복사되었습니다.
