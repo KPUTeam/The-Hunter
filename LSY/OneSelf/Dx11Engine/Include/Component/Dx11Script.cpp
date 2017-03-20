@@ -24,3 +24,15 @@ bool CDx11Script::Init()
 void CDx11Script::Input(float fTime)
 {
 }
+
+void CDx11Script::OnCollisionEnter(CDx11Collider * pColl, float fTime)
+{
+}
+
+void CDx11Script::OnCollision(CDx11Collider * pColl, float fTime)
+{
+}
+
+void CDx11Script::OnCollisionExit(CDx11Collider * pColl, float fTime)
+{
+}

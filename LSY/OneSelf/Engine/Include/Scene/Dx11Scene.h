@@ -18,6 +18,8 @@ private:
 	vector<class CDx11Script*>	m_vecScript;
 	unordered_map<string, class CDx11GameObject*>	m_mapCamera;
 	CDx11GameObject*		m_pMainCamera;
+	string					m_strMainCamera;
+	string					m_strPrevCamera;
 	list<class CDx11GameObject*>		m_FindList;
 	list<class CDx11GameObject*>		m_LightList;
 	CDx11GameObject*					m_pSky;
@@ -39,8 +41,10 @@ public:
 	class CDx11Layer* FindLayer(const string& strTag);
 	class CDx11GameObject* CreateCamera(const string& strTag, float fAngle,
 		float fNear, float fFar);
+	class CDx11GameObject* CreateCamera(const string& strTag, float fNear, float fFar);
 	class CDx11GameObject* FindCamera(const string& strKey);
 	void ChangeCamera(const string& strKey);
+	void PrevCamera();
 	class CDx11GameObject* FindObjectFromTag(const string& strTag);
 	list<CDx11GameObject*>* FindObjectsFromTag(const string& strTag);
 	class CDx11GameObject* CreateLight(LIGHT_TYPE eType, const string& strTag = "Light");

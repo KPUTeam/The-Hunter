@@ -61,13 +61,23 @@ bool CDx11ResourcesManager::Init()
 		DXGI_FORMAT_R32_UINT);
 
 	SAFE_RELEASE(pMesh);
+
+	UIVERTEX	tUIVtx[4] = 
+	{
+		{Vec3(0.f, 0.f, 0.f), Vec2(0.f, 0.f)},
+		{Vec3(1.f, 0.f, 0.f), Vec2(1.f, 0.f)},
+		{Vec3(0.f, 1.f, 0.f), Vec2(0.f, 1.f)},
+		{Vec3(1.f, 1.f, 0.f), Vec2(1.f, 1.f)}
+	};
+
+	UINT	iIndex2[6] = { 0, 1, 3, 0, 3, 2 };
 	
 	CDx11Sampler*	pSampler = CreateSampler(DEFAULT_SAMPLER);
 
 	SAFE_RELEASE(pSampler);
 
 	// 기본 구 메쉬 생성
-	pMesh = CreateSphere(SPHERE_MESH, 0.5f, 100, 100);
+	pMesh = CreateSphere(SPHERE_MESH, 0.5f, 50, 50);
 
 	SAFE_RELEASE(pMesh);
 

@@ -874,6 +874,31 @@ typedef struct _tagBumpVertex
 	{}
 }BUMPVERTEX, *PBUMPVERTEX;
 
+// UI Vertex
+typedef struct _tagUIVertex
+{
+	Vec3		vPos;
+	Vec2		vUV;
+
+	_tagUIVertex() :
+		vPos(0.f, 0.f, 0.f),
+		vUV(0.f, 0.f)
+	{
+	}
+
+	_tagUIVertex(const Vec3& _vPos, const Vec2& _vUV) :
+		vPos(_vPos),
+		vUV(_vUV)
+	{
+	}
+
+	_tagUIVertex(float x, float y, float z, float u, float v) :
+		vPos(x, y, z),
+		vUV(u, v)
+	{
+	}
+}UIVERTEX, *PUIVERTEX;
+
 // Transform Constant Buffer
 typedef struct _tagTransformCBuffer
 {

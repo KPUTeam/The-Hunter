@@ -1,4 +1,5 @@
 #include "Dx11Layer.h"
+#include "../Core/Dx11Debug.h"
 #include "../Core/Dx11CollisionManager.h"
 #include "../GameObject/Dx11GameObject.h"
 #include "../Rendering/Dx11RenderManager.h"
@@ -123,7 +124,7 @@ void CDx11Layer::Collision(float fTime)
 
 	for (iter = m_ObjList.begin(); iter != iterEnd; ++iter)
 	{
-		DX11_GET_SINGLE(CDx11CollisionManager)->AddGameObject(*iter);
+		(*iter)->AddCollider();
 	}
 }
 
@@ -139,8 +140,6 @@ void CDx11Layer::Render(float fTime)
 			++iter;
 			continue;
 		}
-
-//		(*iter)->Render(fTime);
 
 		if (!(*iter)->GetAlive())
 		{

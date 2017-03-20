@@ -21,11 +21,14 @@
 #define	DEFAULT_SHADER	"DefaultShader"
 #define	DEFAULT_TEX_SHADER	"DefaultTexShader"
 #define SKY_SHADER	"SkyShader"
+#define COLLIDER_SHADER "ColliderShader"
+#define UI_SHADER	"UIShader"
 
 
 // Default Resource Key
 #define	TRIANGLE_MESH	"TriangleMesh"
 #define	RECT_TEX_MESH	"RectTexMesh"
+#define RECT_UI_MESH	"RectUIMesh"
 #define SPHERE_MESH		"SphereMesh"
 
 // Sampler Keys

@@ -1,7 +1,10 @@
 #include "MainScene.h"
+#include "Core/Dx11Scheduler.h"
 #include "GameObject/Dx11GameObject.h"
+#include "Component/Dx11Material.h"
 #include "Component/Dx11Transform.h"
 #include "Component/Dx11Renderer.h"
+#include "Component/Dx11ColliderSphere.h"
 #include "Scene/Dx11Scene.h"
 #include "Scene/Dx11Layer.h"
 #include "../ObjectScript/Player.h"
@@ -9,10 +12,8 @@
 #include "../ObjectScript/Monster.h"
 #include "../ObjectScript/Skill2.h"
 #include "../ObjectScript/InvisibleObject.h"
-#include "Core/Dx11Scheduler.h"
 #include "Resources/Dx11ResourcesManager.h"
 #include "Resources/Dx11Texture.h"
-#include "Component/Dx11Material.h"
 
 
 CMainScene::CMainScene()
@@ -37,8 +38,8 @@ bool CMainScene::Init()
 	if (!CreateCamera())
 		return false;
 
-	if (!CreateMonster())
-		return false;
+//	if (!CreateMonster())
+//		return false;
 
 	if (!CreateSkill())
 		return false;
@@ -134,6 +135,10 @@ bool CMainScene::CreatePlayer()
 
 	CDx11GameObject*	pPlayer = CDx11GameObject::Create("PlayerObject");
 	
+	CDx11ColliderSphere* pSphere = pPlayer->AddComponent<CDx11ColliderSphere>("PlayerColl");
+	pSphere->SetInfo(Vec3Zero, 0.8f);
+	SAFE_RELEASE(pSphere);
+	
 	CPlayer*	pPlayerScript = pPlayer->AddComponent<CPlayer>("Player");
 	SAFE_RELEASE(pPlayerScript);
 
@@ -154,7 +159,11 @@ bool CMainScene::CreateBullet()
 
 	// 총알 프로토타입을 만든다.
 	CDx11GameObject*	pBullet = CDx11GameObject::Create("BulletPrototype", OT_PROTOTYPE);
-
+	
+	CDx11ColliderSphere* pSphere = pBullet->AddComponent<CDx11ColliderSphere>("BulletColl");
+	pSphere->SetInfo(Vec3Zero, 0.8f);
+	SAFE_RELEASE(pSphere);
+	
 	// 렌더러를 생성한다.
 	CDx11Renderer*	pRenderer = pBullet->AddComponent<CDx11Renderer>("BulletRenderer");
 
@@ -262,6 +271,10 @@ bool CMainScene::CreateMonster()
 	pTransform->MoveWorld(-5.f, 1.f, AXIS_X);
 
 	SAFE_RELEASE(pTransform);
+
+	CDx11ColliderSphere* pSphere = p_Monster->AddComponent<CDx11ColliderSphere>("MonsterColll");
+	pSphere->SetInfo(Vec3Zero, 0.8f);
+	SAFE_RELEASE(pSphere);
 
 	CDx11Layer* pLayer = m_pScene->FindLayer("DefaultLayer");
 

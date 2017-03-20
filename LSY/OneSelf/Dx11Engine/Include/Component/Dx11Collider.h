@@ -16,8 +16,19 @@ protected:
 	list<CDx11Collider*>	m_CollList;
 	Vec3					m_vPrevPos;
 
+#if defined(_DEBUG) | defined(DEBUG)
+	class CDx11Mesh*		m_pMesh;
+	class CDx11Shader*		m_pShader;
+	class CDx11RenderState* m_pWireFrame;
+	Matrix					m_matWorld;
+	Vec4					m_vColor;
+#endif
+
 public:
 	COLLIDER_SUB_TYPE	GetColliderType();
+	void AddCollider(CDx11Collider* pColl);
+	void EraseCollider(CDx11Collider* pColl);
+	bool CheckCollider(CDx11Collider* pColl);
 
 public:
 	virtual bool Init();

@@ -50,6 +50,10 @@ public:
 	int LateUpdate(float fTime);
 	void Render(float fTime);
 	CDx11GameObject* Clone()	const;
+	void OnCollisionEnter(class CDx11Collider* pColl, float fTime);
+	void OnCollision(class CDx11Collider* pColl, float fTime);
+	void OnCollisionExit(class CDx11Collider* pColl, float fTime);
+	void AddCollider();
 
 public:
 	CDx11Component* FindComponentFromTag(const string& strTag);

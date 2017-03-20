@@ -94,6 +94,9 @@
     <Filter Include="01. Core\08. Collision">
       <UniqueIdentifier>{39fb6b67-521c-4679-bdb7-c4e3db679031}</UniqueIdentifier>
     </Filter>
+    <Filter Include="06. Component\08. UI">
+      <UniqueIdentifier>{326c1916-44d4-49ac-ae6d-0eb5f814a39e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dx11Engine.h">
@@ -226,7 +229,13 @@
       <Filter>06. Component\07. Collider</Filter>
     </ClInclude>
     <ClInclude Include="Core\Dx11CollisionManager.h">
-      <Filter>Header Files</Filter>
+      <Filter>01. Core\08. Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11UI.h">
+      <Filter>06. Component\08. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11UIBack.h">
+      <Filter>06. Component\08. UI</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -345,7 +354,13 @@
       <Filter>06. Component\07. Collider</Filter>
     </ClCompile>
     <ClCompile Include="Core\Dx11CollisionManager.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>01. Core\08. Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11UI.cpp">
+      <Filter>06. Component\08. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11UIBack.cpp">
+      <Filter>06. Component\08. UI</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -353,6 +368,15 @@
       <Filter>03. Rendering\01. Shader\01. FX</Filter>
     </FxCompile>
     <FxCompile Include="Sky.fx">
+      <Filter>03. Rendering\01. Shader\01. FX</Filter>
+    </FxCompile>
+    <FxCompile Include="Collider.fx">
+      <Filter>03. Rendering\01. Shader\01. FX</Filter>
+    </FxCompile>
+    <FxCompile Include="Share.fx">
+      <Filter>03. Rendering\01. Shader\01. FX</Filter>
+    </FxCompile>
+    <FxCompile Include="UI.fx">
       <Filter>03. Rendering\01. Shader\01. FX</Filter>
     </FxCompile>
   </ItemGroup>

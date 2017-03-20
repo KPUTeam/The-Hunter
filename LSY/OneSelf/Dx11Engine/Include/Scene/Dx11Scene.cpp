@@ -46,15 +46,25 @@ bool CDx11Scene::Init()
 
 	SAFE_RELEASE(pLayer);
 
+	pLayer = CreateLayer("UILayer");
+
+	SAFE_RELEASE(pLayer);
+
 	// 기본 카메라를 생성한다.
 	m_pMainCamera = CreateCamera("MainCamera", DX11_PI / 3.f,
 		0.1f, 1000.f);
+
+	m_strMainCamera = "MainCamera";
 
 	CDx11Transform*	pTr = m_pMainCamera->GetTransform();
 
 	pTr->SetWorldPos(0.f, 0.f, -5.f);
 
 	SAFE_RELEASE(pTr);
+
+	CDx11GameObject*	pCamera = CreateCamera("UICamera", 0.f, 1000.f);
+
+	SAFE_RELEASE(pCamera);
 
 	// 조명을 생성한다.
 	/*CDx11GameObject*	pLightDir = CreateLight(LT_DIR, "LightDir");
@@ -343,6 +353,30 @@ CDx11GameObject * CDx11Scene::CreateCamera(const string & strTag,
 	return pCameraObj;
 }
 
+CDx11GameObject * CDx11Scene::CreateCamera(const string & strTag, float fNear, float fFar)
+{
+	CDx11GameObject*	pCameraObj = FindCamera(strTag);
+
+	if (pCameraObj)
+	{
+		SAFE_RELEASE(pCameraObj);
+		return NULL;
+	}
+
+	pCameraObj = CDx11GameObject::Create(strTag);
+
+	CDx11Camera*	pCamera = (CDx11Camera*)pCameraObj->AddComponent<CDx11Camera>();
+
+	pCamera->SetOrthoProjection(fNear, fFar);
+
+	SAFE_RELEASE(pCamera);
+
+	pCameraObj->AddRef();
+	m_mapCamera.insert(make_pair(strTag, pCameraObj));
+
+	return pCameraObj;
+}
+
 CDx11GameObject * CDx11Scene::FindCamera(const string & strKey)
 {
 	unordered_map<string, class CDx11GameObject*>::iterator	iter = m_mapCamera.find(strKey);
@@ -363,6 +397,25 @@ void CDx11Scene::ChangeCamera(const string & strKey)
 		return;
 
 	SAFE_RELEASE(m_pMainCamera);
+
+	m_strPrevCamera = m_strMainCamera;
+	m_strMainCamera = strKey;
+
+	m_pMainCamera = pCam;
+}
+
+void CDx11Scene::PrevCamera()
+{
+	CDx11GameObject*	pCam = FindCamera(m_strPrevCamera);
+
+	if (!pCam)
+		return;
+
+	SAFE_RELEASE(m_pMainCamera);
+
+	string	strKey = m_strPrevCamera;
+	m_strPrevCamera = m_strMainCamera;
+	m_strMainCamera = strKey;
 
 	m_pMainCamera = pCam;
 }

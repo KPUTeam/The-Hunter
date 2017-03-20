@@ -17,7 +17,8 @@ public:
 	void Collision(float fTime);
 
 private:
-	bool Collision(CDx11GameObject* pObj1, CDx11GameObject* pObj2);
+	bool Collision(CDx11GameObject* pObj1, CDx11GameObject* pObj2,
+		float fTime);
 };
 
 DX11_END

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CStream" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIhIAASCIAIAAIAQRAEQAAABQEAAAEIgAAACgEKAAEA=</HashCode>
+      <FileName>Stream\Stream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStreamSP" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAgAAAAAIAAAAAAAACIAAAAA=</HashCode>
+      <FileName>Stream\StreamSP.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRegistry" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAIAAAIgAQAADAAAAACAAAgAAECAAAAACAAAA=</HashCode>
+      <FileName>Registry\Registry.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CIniFile" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAIgAAAAAgAAAAAAAAQAAAAAAAABCAAAA=</HashCode>
+      <FileName>IniFile\IniFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCircularQueue" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAAAAAAAAAAEAgAAAAAIACAEAAAAQAAAABACAA=</HashCode>
+      <FileName>CircleQueue\CircularQueue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLog" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Log\Log.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="_QUEUE_DATA" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACgAAACIABAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="QUEUE_DATA" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PQUEUE_DATA" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

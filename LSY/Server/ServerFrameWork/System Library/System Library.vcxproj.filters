@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. MemoryPool">
+      <UniqueIdentifier>{84eacf8e-45a1-4af2-a6af-13aca98b9aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Crypt">
+      <UniqueIdentifier>{6ad55c87-3d0d-4c06-90e8-ab4a5478442a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Service">
+      <UniqueIdentifier>{f3ebeb0f-f6db-44bd-87ab-34631c08f988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. MiniDump">
+      <UniqueIdentifier>{bd3b774e-0834-4603-9dae-73d1ce589a05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. MemoryLeak">
+      <UniqueIdentifier>{0d218cfc-fcb4-433f-816c-353fabdb2e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. ThreadSync">
+      <UniqueIdentifier>{26ef8e61-fb39-47f9-b7bb-1ba361ffa84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Random">
+      <UniqueIdentifier>{cff4fed2-1184-4dd3-867c-5b6a88c5159f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool\MemoryPool.h">
+      <Filter>01. MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypt\Crypt.h">
+      <Filter>02. Crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\Service.h">
+      <Filter>03. Service</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryLeak\MemoryLeak.h">
+      <Filter>05. MemoryLeak</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSync\CriticalSection.h">
+      <Filter>06. ThreadSync</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadSync\MultiThreadSync.h">
+      <Filter>06. ThreadSync</Filter>
+    </ClInclude>
+    <ClInclude Include="Random\Random.h">
+      <Filter>07. Random</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniDump\MiniDump.h">
+      <Filter>04. MiniDump</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MemoryPool\MemoryPool.cpp">
+      <Filter>01. MemoryPool</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryPool 예제.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypt\Crypt.cpp">
+      <Filter>02. Crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="Service\Service.cpp">
+      <Filter>03. Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Random\Random.cpp">
+      <Filter>07. Random</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniDump\MiniDump.cpp">
+      <Filter>04. MiniDump</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

@@ -35,6 +35,9 @@ public:
 	virtual int LateUpdate(float fTime);
 	virtual void Render(float fTime);
 	virtual CDx11Component* Clone() = 0;
+	virtual void OnCollisionEnter(class CDx11Collider* pColl, float fTime);
+	virtual void OnCollision(class CDx11Collider* pColl, float fTime);
+	virtual void OnCollisionExit(class CDx11Collider* pColl, float fTime);
 };
 
 DX11_END

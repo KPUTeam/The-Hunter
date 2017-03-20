@@ -1,0 +1,6 @@
+enum IO_TYPE
+{
+	IO_ACCEPT,
+	IO_READ,
+	IO_WRITE
+};
