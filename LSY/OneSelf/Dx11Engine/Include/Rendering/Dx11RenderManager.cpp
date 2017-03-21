@@ -108,7 +108,14 @@ void CDx11RenderManager::Render(float fTime)
 			sort(m_RenderList[i].begin(), m_RenderList[i].end(), CDx11RenderManager::SortDistInv);
 
 		else
+		{
+			CDx11Scene*	pScene = DX11_GET_SINGLE(CDx11SceneManager)->GetCurrentScene();
+
+			pScene->ChangeCamera("UICamera");
+
+			SAFE_RELEASE(pScene);
 			sort(m_RenderList[i].begin(), m_RenderList[i].end(), CDx11RenderManager::SortUI);
+		}
 
 		vector<CDx11GameObject*>::iterator iter;
 		vector<CDx11GameObject*>::iterator iterEnd = m_RenderList[i].end();
@@ -116,6 +123,15 @@ void CDx11RenderManager::Render(float fTime)
 		for (iter = m_RenderList[i].begin(); iter != iterEnd; ++iter)
 		{
 			(*iter)->Render(fTime);
+		}
+
+		if (i == RT_UI)
+		{
+			CDx11Scene*	pScene = DX11_GET_SINGLE(CDx11SceneManager)->GetCurrentScene();
+
+			pScene->PrevCamera();
+
+			SAFE_RELEASE(pScene);
 		}
 	}
 
@@ -294,7 +310,6 @@ bool CDx11RenderManager::SortDistInv(CDx11GameObject * pObj1, CDx11GameObject * 
 	if (fDist1 < fDist2)
 		return true;
 
-	return false;
 	return false;
 }
 

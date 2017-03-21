@@ -12,11 +12,19 @@ public:
 	~CDx11Camera();
 
 private:
+	enum PROJECTION_TYPE
+	{
+		PT_PERSPECTIVE,
+		PT_ORTHOGONAL
+	};
+
+private:
 	Matrix		m_matView;
 	Matrix		m_matProj;
 	float		m_fAngle;
 	float		m_fNear;
 	float		m_fFar;
+	PROJECTION_TYPE	m_eProjType;
 
 public:
 	Matrix GetViewMatrix();
@@ -24,6 +32,7 @@ public:
 
 public:
 	void SetProjection(float fAngle, float fNear, float fFar);
+	void SetOrthoProjection(float n, float f);
 	void SetAngle(float fAngle);
 	void SetNear(float fNear);
 	void SetDistance(float fDist);

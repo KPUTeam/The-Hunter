@@ -1,15 +1,9 @@
 
+#include "Share.fx"
+
 Texture2D		g_DiffuseTex	: register(t0);
 SamplerState	g_DiffuseSmp	: register(s0);
 
-cbuffer	Transform	: register(b0)
-{
-	matrix	g_matWorld;
-	matrix	g_matView;
-	matrix	g_matProj;
-	matrix	g_matWV;
-	matrix	g_matWVP;
-};
 
 cbuffer Material	: register(b1)
 {
@@ -175,11 +169,11 @@ PS_OUTPUT DefaultTexPS(VS_OUTPUT_TEX input)
 
 	LightState tLightInfo = ComputeLight(input.vViewPos, input.vViewNormal);
 
-	clip(-1.f);
-
 	float4 vColor = g_DiffuseTex.Sample(g_DiffuseSmp, input.vUV);
 	vColor.xyz = vColor.xyz * (tLightInfo.vDif.xyz + tLightInfo.vAmb.xyz) + tLightInfo.vSpc.xyz;
 	output.vColor = vColor;
+
+	clip(vColor.a - 0.1f);
 
 	return output;
 }

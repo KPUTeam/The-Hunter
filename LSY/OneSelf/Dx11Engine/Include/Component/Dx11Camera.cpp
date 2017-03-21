@@ -46,6 +46,18 @@ void CDx11Camera::SetProjection(float fAngle, float fNear, float fFar)
 	m_fFar = fFar;
 }
 
+void CDx11Camera::SetOrthoProjection(float n, float f)
+{
+	RESOLUTION_TYPE eType = DX11_GET_SINGLE(CDx11Device)->GetResolutionType();
+	m_matProj = XMMatrixOrthographicOffCenterLH(0.f, (float)g_tRS[eType].iWidth,
+		(float)g_tRS[eType].iHeight, 0.f, n, f);
+
+	m_fNear = n;
+	m_fFar = f;
+
+	m_eProjType = PT_ORTHOGONAL;
+}
+
 void CDx11Camera::SetAngle(float fAngle)
 {
 	m_fAngle = fAngle;

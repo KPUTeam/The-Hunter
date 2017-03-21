@@ -69,6 +69,37 @@ bool CDx11ShaderManager::Init()
 
 	SAFE_RELEASE(pShader);
 
+	// Collider Shader
+	pEntry[ST_VERTEX] = "ColliderVS";
+	pEntry[ST_PIXEL] = "ColliderPS";
+	pShader = LoadShader(COLLIDER_SHADER, L"Collider.fx", pEntry, 5, 0);
+
+	AddInputElement(COLLIDER_SHADER, "POSITION", 0, DXGI_FORMAT_R32G32B32_FLOAT,
+		0, 12, D3D11_INPUT_PER_VERTEX_DATA, 0);
+
+	pShader->CreateConstantBuffer("Transform", sizeof(TRANSFORMCBUFFER), 0);
+	pShader->CreateConstantBuffer("Color", sizeof(Vec4), 1);
+
+	CreateInputLayout(COLLIDER_SHADER);
+
+	SAFE_RELEASE(pShader);
+
+	// UI Shader
+	pEntry[ST_VERTEX] = "UIVS";
+	pEntry[ST_PIXEL] = "UIPS";
+	pShader = LoadShader(UI_SHADER, L"UI.fx", pEntry, 5, 0);
+
+	AddInputElement(UI_SHADER, "POSITION", 0, DXGI_FORMAT_R32G32B32_FLOAT,
+		0, 12, D3D11_INPUT_PER_VERTEX_DATA, 0);
+	AddInputElement(UI_SHADER, "TEXCOORD", 0, DXGI_FORMAT_R32G32_FLOAT,
+		0, 8, D3D11_INPUT_PER_VERTEX_DATA, 0);
+
+	pShader->CreateConstantBuffer("Transform", sizeof(TRANSFORMCBUFFER), 0);
+
+	CreateInputLayout(UI_SHADER);
+
+	SAFE_RELEASE(pShader);
+
 	return true;
 }
 

@@ -163,6 +163,7 @@
     <ClCompile Include="ObjectScript\Player.cpp" />
     <ClCompile Include="ObjectScript\Skill2.cpp" />
     <ClCompile Include="ObjectScript\Skill4.cpp" />
+    <ClCompile Include="SceneScript\LogoScene.cpp" />
     <ClCompile Include="SceneScript\MainScene.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -175,6 +176,7 @@
     <ClInclude Include="ObjectScript\Skill2.h" />
     <ClInclude Include="ObjectScript\Skill4.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="SceneScript\LogoScene.h" />
     <ClInclude Include="SceneScript\MainScene.h" />
   </ItemGroup>
   <ItemGroup>

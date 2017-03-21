@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. Stream">
+      <UniqueIdentifier>{9711d4fc-6d4f-4634-8da1-939dcb19206f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Registry">
+      <UniqueIdentifier>{2fec808c-2920-481f-911d-a02a9f81f7a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. IniFile">
+      <UniqueIdentifier>{5839cb1f-c9e2-4025-89ef-f497a3da80df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. CirleQueue">
+      <UniqueIdentifier>{1b2c783d-5a98-4387-9a3c-d036541c08dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Log">
+      <UniqueIdentifier>{01016489-fd0a-4828-919d-761a2b15261a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream\Stream.h">
+      <Filter>01. Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream\StreamSP.h">
+      <Filter>01. Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry\Registry.h">
+      <Filter>02. Registry</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFile\IniFile.h">
+      <Filter>03. IniFile</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleQueue\CircularQueue.h">
+      <Filter>04. CirleQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\Log.h">
+      <Filter>05. Log</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Stream\Stream.cpp">
+      <Filter>01. Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="Stream\StreamSP.cpp">
+      <Filter>01. Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="Registry\Registry.cpp">
+      <Filter>02. Registry</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFile\IniFile.cpp">
+      <Filter>03. IniFile</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleQueue\CircularQueue.cpp">
+      <Filter>04. CirleQueue</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

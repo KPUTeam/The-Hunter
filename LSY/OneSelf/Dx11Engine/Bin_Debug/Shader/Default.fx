@@ -1,15 +1,9 @@
 
+#include "Share.fx"
+
 Texture2D		g_DiffuseTex	: register(t0);
 SamplerState	g_DiffuseSmp	: register(s0);
 
-cbuffer	Transform	: register(b0)
-{
-	matrix	g_matWorld;
-	matrix	g_matView;
-	matrix	g_matProj;
-	matrix	g_matWV;
-	matrix	g_matWVP;
-};
 
 cbuffer Material	: register(b1)
 {

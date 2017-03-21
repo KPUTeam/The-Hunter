@@ -1,9 +1,11 @@
 #include "Dx11GameObject.h"
+#include "Dx11GameObjectManager.h"
 #include "../Scene/Dx11Scene.h"
 #include "../Scene/Dx11layer.h"
 #include "../Component/Dx11Transform.h"
 #include "../Component/Dx11Renderer.h"
-#include "Dx11GameObjectManager.h"
+#include "../Core/Dx11CollisionManager.h"
+#include "../Rendering/Dx11RenderManager.h"
 
 DX11_USING
 
@@ -555,6 +557,61 @@ void CDx11GameObject::Render(float fTime)
 CDx11GameObject * CDx11GameObject::Clone() const
 {
 	return new CDx11GameObject(*this);;
+}
+
+void CDx11GameObject::OnCollisionEnter(CDx11Collider * pColl, float fTime)
+{
+	list<class CDx11Component*>::iterator	iter;
+	list<class CDx11Component*>::iterator	iterEnd = m_ComponentList.end();
+
+	for (iter = m_ComponentList.begin(); iter != iterEnd; ++iter)
+	{
+		if (!(*iter)->GetEnable())
+			continue;
+
+		(*iter)->OnCollisionEnter(pColl, fTime);
+	}
+}
+
+void CDx11GameObject::OnCollision(CDx11Collider * pColl, float fTime)
+{
+	list<class CDx11Component*>::iterator	iter;
+	list<class CDx11Component*>::iterator	iterEnd = m_ComponentList.end();
+
+	for (iter = m_ComponentList.begin(); iter != iterEnd; ++iter)
+	{
+		if (!(*iter)->GetEnable())
+			continue;
+
+		(*iter)->OnCollision(pColl, fTime);
+	}
+}
+
+void CDx11GameObject::OnCollisionExit(CDx11Collider * pColl, float fTime)
+{
+	list<class CDx11Component*>::iterator	iter;
+	list<class CDx11Component*>::iterator	iterEnd = m_ComponentList.end();
+
+	for (iter = m_ComponentList.begin(); iter != iterEnd; ++iter)
+	{
+		if (!(*iter)->GetEnable())
+			continue;
+
+		(*iter)->OnCollisionExit(pColl, fTime);
+	}
+}
+
+void CDx11GameObject::AddCollider()
+{
+	DX11_GET_SINGLE(CDx11CollisionManager)->AddGameObject(this);
+
+	list<CDx11GameObject*>::iterator	iter1;
+	list<CDx11GameObject*>::iterator	iter1End = m_ChildList.end();
+
+	for (iter1 = m_ChildList.begin(); iter1 != iter1End; ++iter1)
+	{
+		(*iter1)->AddCollider();
+	}
 }
 
 CDx11Component * CDx11GameObject::FindComponentFromTag(const string & strTag)

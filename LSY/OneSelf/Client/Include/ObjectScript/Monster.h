@@ -18,6 +18,9 @@ public:
 	virtual int LateUpdate(float fTime);
 	virtual void Render(float fTime);
 	virtual CMonster* Clone();
+	virtual void OnCollisionEnter(class CDx11Collider* pColl, float fTime);
+	virtual void OnCollision(class CDx11Collider* pColl, float fTime);
+	virtual void OnCollisionExit(class CDx11Collider* pColl, float fTime);
 
 private:
 	int m_iCnt;

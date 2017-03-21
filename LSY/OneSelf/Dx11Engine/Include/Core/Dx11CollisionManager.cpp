@@ -16,14 +16,14 @@ CDx11CollisionManager::~CDx11CollisionManager()
 
 bool CDx11CollisionManager::Init()
 {
-	m_ObjList.reserve(200);
+	m_ObjList.reserve(1000);
 
 	return true;
 }
 
 void CDx11CollisionManager::AddGameObject(CDx11GameObject * pObj)
 {
-	CDx11Component* pColl = pObj->FindComponentFromType(CT_COLLIDER);
+	CDx11Component*	pColl = pObj->FindComponentFromType(CT_COLLIDER);
 
 	if (!pColl)
 		return;
@@ -51,17 +51,20 @@ void CDx11CollisionManager::Collision(float fTime)
 
 		for (iter1 = iter + 1; iter1 != iter1End; ++iter1)
 		{
-			Collision(*iter, *iter1);
+			Collision(*iter, *iter1, fTime);
 		}
 	}
 
 	m_ObjList.clear();
+
+	m_ObjList.reserve(1000);
 }
 
-bool CDx11CollisionManager::Collision(CDx11GameObject * pObj1, CDx11GameObject * pObj2)
+bool CDx11CollisionManager::Collision(CDx11GameObject * pObj1,
+	CDx11GameObject * pObj2, float fTime)
 {
-	list<CDx11Component*>* pColl1 = pObj1->FindComponentsFromType(CT_COLLIDER);
-	list<CDx11Component*>* pColl2 = pObj2->FindComponentsFromType(CT_COLLIDER);
+	list<CDx11Component*>*	pColl1 = pObj1->FindComponentsFromType(CT_COLLIDER);
+	list<CDx11Component*>*	pColl2 = pObj2->FindComponentsFromType(CT_COLLIDER);
 
 	list<CDx11Component*>::iterator	iter1;
 	list<CDx11Component*>::iterator	iter1End = pColl1->end();
@@ -78,7 +81,33 @@ bool CDx11CollisionManager::Collision(CDx11GameObject * pObj1, CDx11GameObject *
 
 			if (pColl1->Collision(pColl2))
 			{
-				MessageBox(0, L"Coll", L"Coll", MB_OK);
+				if (!pColl1->CheckCollider(pColl2))
+				{
+					pColl1->AddCollider(pColl2);
+					pColl2->AddCollider(pColl1);
+
+					pObj1->OnCollisionEnter(pColl2, fTime);
+					pObj2->OnCollisionEnter(pColl1, fTime);
+				}
+
+				else
+				{
+					pObj1->OnCollision(pColl2, fTime);
+					pObj2->OnCollision(pColl1, fTime);
+				}
+			}
+
+			// 충돌이 안됐을 경우
+			else
+			{
+				if (pColl1->CheckCollider(pColl2))
+				{
+					pColl1->EraseCollider(pColl2);
+					pColl2->EraseCollider(pColl1);
+
+					pObj1->OnCollisionExit(pColl2, fTime);
+					pObj2->OnCollisionExit(pColl1, fTime);
+				}
 			}
 		}
 	}

@@ -4,6 +4,7 @@
 #include "GameObject/Dx11GameObject.h"
 #include "Component/Dx11Transform.h"
 #include "Component/Dx11Renderer.h"
+#include "Component/Dx11Collider.h"
 #include "Scene/Dx11Scene.h"
 #include "Scene/Dx11Layer.h"
 
@@ -73,6 +74,25 @@ void CMonster::Render(float fTime)
 CMonster * CMonster::Clone()
 {
 	return new CMonster(*this);
+}
+
+void CMonster::OnCollisionEnter(CDx11Collider * pColl, float fTime)
+{
+}
+
+void CMonster::OnCollision(CDx11Collider * pColl, float fTime)
+{
+}
+
+void CMonster::OnCollisionExit(CDx11Collider * pColl, float fTime)
+{
+	if (pColl->GetTag() == "BulletColl")
+	{
+		CDx11GameObject*	pObj = pColl->GetGameObject();
+		pObj->Death();
+		SAFE_RELEASE(pObj);
+		m_pGameObject->Death();
+	}
 }
 
 

@@ -21,29 +21,29 @@ DX11_USING
 CDx11Core* CDx11Core::m_pInst = NULL;
 bool CDx11Core::m_bLoop = true;
 
-CDx11Core::CDx11Core()	:
+CDx11Core::CDx11Core() :
 	m_pWindow(NULL)
 {
 	srand(GetTickCount());
 	SetTypeName<CDx11Core>();
 #if defined(DEBUG) | defined(_DEBUG)
 	_CrtSetDbgFlag(_CRTDBG_LEAK_CHECK_DF | _CRTDBG_ALLOC_MEM_DF);
-	//_CrtSetBreakAlloc(286);
+	//_CrtSetBreakAlloc(863);
 #endif // defined(DEBUG) | defined(_DEBUG)
 
 }
 
 CDx11Core::~CDx11Core()
 {
-	DX11_DESTROY_SINGLE(CDx11CollisionManager);
 	DX11_DESTROY_SINGLE(CDx11Scheduler);
 	DX11_DESTROY_SINGLE(CDx11SceneManager);
 	DX11_DESTROY_SINGLE(CDx11GameObjectManager);
+	DX11_DESTROY_SINGLE(CDx11RenderManager);
+	DX11_DESTROY_SINGLE(CDx11CollisionManager);
 	DX11_DESTROY_SINGLE(CDx11TimerManager);
 	DX11_DESTROY_SINGLE(CDx11ResourcesManager);
 	DX11_DESTROY_SINGLE(CDx11ShaderManager);
 	DX11_DESTROY_SINGLE(CDx11FilePathManager);
-	DX11_DESTROY_SINGLE(CDx11RenderManager);
 	DX11_DESTROY_SINGLE(CDx11Input);
 	DX11_DESTROY_SINGLE(CDx11Device);
 	DX11_DESTROY_SINGLE(CDx11Debug);
@@ -64,7 +64,7 @@ void CDx11Core::DestroyInst()
 }
 
 bool CDx11Core::Init(TCHAR * pTitle, TCHAR * pClass,
-	HINSTANCE hInst, int iIconID, int iSmallIconID, 
+	HINSTANCE hInst, int iIconID, int iSmallIconID,
 	RESOLUTION_TYPE eRT, bool bWindowMode, WNDPROC pProc)
 {
 	// 윈도우 창을 생성한다.
@@ -77,7 +77,7 @@ bool CDx11Core::Init(TCHAR * pTitle, TCHAR * pClass,
 		eRT, pProc))
 		return false;
 
-	if (!DX11_GET_SINGLE(CDx11Debug)->Init(m_pWindow->GetWindowHandle()))
+	if (!DX11_GET_SINGLE(CDx11Debug)->Init(m_pWindow->m_hWnd))
 		return false;
 
 	// 디바이스를 초기화한다.
@@ -96,6 +96,9 @@ bool CDx11Core::Init(TCHAR * pTitle, TCHAR * pClass,
 	if (!DX11_GET_SINGLE(CDx11Scheduler)->Init())
 		return false;
 
+	if (!DX11_GET_SINGLE(CDx11CollisionManager)->Init())
+		return false;
+
 	// 렌더링 관리자를 초기화한다.
 	if (!DX11_GET_SINGLE(CDx11RenderManager)->Init())
 		return false;
@@ -111,17 +114,13 @@ bool CDx11Core::Init(TCHAR * pTitle, TCHAR * pClass,
 	// 입력 관리자를 초기화한다.
 	if (!DX11_GET_SINGLE(CDx11Input)->Init())
 		return false;
-	
+
 	// 오브젝트 관리자를 초기화한다.
 	if (!DX11_GET_SINGLE(CDx11GameObjectManager)->Init())
 		return false;
 
 	// 장면 관리자를 초기화한다.
 	if (!DX11_GET_SINGLE(CDx11SceneManager)->Init())
-		return false;
-
-	// 충돌 관리자를 초기화한다.
-	if (!DX11_GET_SINGLE(CDx11CollisionManager)->Init())
 		return false;
 
 	return true;

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CDataMP" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAQAAAAAAAAA=</HashCode>
+      <FileName>MemoryPool 예제.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMemoryPool&lt;T, ALLOC_BLOCK_SIZE&gt;" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAQAAAAAAEAAAIAAAAAAAAAE=</HashCode>
+      <FileName>MemoryPool\MemoryPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCrypt" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Crypt\Crypt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CService" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIgAAAAACAAAAAEAAAIgAAAAAABECEAAABAAAAAAAA=</HashCode>
+      <FileName>Service\Service.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMiniDump" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MiniDump\MiniDump.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMemoryLeak" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MemoryLeak\MemoryLeak.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCriticalSection" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAEEgAAAAQAAAAAAAAA=</HashCode>
+      <FileName>ThreadSync\CriticalSection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMultiThreadSync&lt;T&gt;" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ThreadSync\MultiThreadSync.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRandom" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEAAAAAAAAAABAAAAAAAIIAAAAAAAAAQAAACAAAAAAA=</HashCode>
+      <FileName>Random\Random.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="MINIDUMPWRITEDUMP" Collapsed="true">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MiniDump\MiniDump.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

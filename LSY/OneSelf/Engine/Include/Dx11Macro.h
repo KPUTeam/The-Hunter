@@ -37,3 +37,4 @@ private:\
 
 #define	DX11_DEVICE		DX11::CDx11Device::GetInst()->GetDevice()
 #define	DX11_CONTEXT	DX11::CDx11Device::GetInst()->GetContext()
+#define DX11_RESOLUTION DX11::CDx11Device::GetInst()->GetResolutionType()

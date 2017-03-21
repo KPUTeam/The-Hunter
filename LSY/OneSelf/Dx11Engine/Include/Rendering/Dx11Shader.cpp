@@ -200,7 +200,7 @@ bool CDx11Shader::LoadVertexShader(TCHAR * pFileName, char * pEntry,
 	sprintf_s(strVersion, "vs_%d_%d", iHighV, iLowV);
 
 	ID3DBlob*	pErr = NULL;
-	if (FAILED(D3DCompileFromFile(strPath.c_str(), NULL, NULL, pEntry,
+	if (FAILED(D3DCompileFromFile(strPath.c_str(), NULL, D3D_COMPILE_STANDARD_FILE_INCLUDE, pEntry,
 		strVersion, dwFlag, 0, &m_pVSBlob, &pErr)))
 	{
 		MessageBoxA(NULL, (char*)pErr->GetBufferPointer(), "Error", MB_OK);
@@ -233,7 +233,7 @@ bool CDx11Shader::LoadPixelShader(TCHAR * pFileName, char * pEntry, int iHighV, 
 	sprintf_s(strVersion, "ps_%d_%d", iHighV, iLowV);
 
 	ID3DBlob*	pErr = NULL;
-	if (FAILED(D3DCompileFromFile(strPath.c_str(), NULL, NULL, pEntry,
+	if (FAILED(D3DCompileFromFile(strPath.c_str(), NULL, D3D_COMPILE_STANDARD_FILE_INCLUDE, pEntry,
 		strVersion, dwFlag, 0, &m_pPSBlob, &pErr)))
 	{
 		MessageBoxA(NULL, (char*)pErr->GetBufferPointer(), "Error", MB_OK);

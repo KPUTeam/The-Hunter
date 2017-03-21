@@ -164,6 +164,8 @@
     <ClInclude Include="Component\Dx11Renderer.h" />
     <ClInclude Include="Component\Dx11Script.h" />
     <ClInclude Include="Component\Dx11Transform.h" />
+    <ClInclude Include="Component\Dx11UI.h" />
+    <ClInclude Include="Component\Dx11UIBack.h" />
     <ClInclude Include="Core\Dx11CollisionManager.h" />
     <ClInclude Include="Core\Dx11Debug.h" />
     <ClInclude Include="Core\Dx11Device.h" />
@@ -210,6 +212,8 @@
     <ClCompile Include="Component\Dx11Renderer.cpp" />
     <ClCompile Include="Component\Dx11Script.cpp" />
     <ClCompile Include="Component\Dx11Transform.cpp" />
+    <ClCompile Include="Component\Dx11UI.cpp" />
+    <ClCompile Include="Component\Dx11UIBack.cpp" />
     <ClCompile Include="Core\Dx11CollisionManager.cpp" />
     <ClCompile Include="Core\Dx11Debug.cpp" />
     <ClCompile Include="Core\Dx11Device.cpp" />
@@ -248,6 +252,15 @@
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
       <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
     </FxCompile>
+    <FxCompile Include="Collider.fx">
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ColliderVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Share.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+    </FxCompile>
     <FxCompile Include="Sky.fx">
       <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">SkyVS</EntryPointName>
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
@@ -255,6 +268,11 @@
       <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">SkyVS</EntryPointName>
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
       <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="UI.fx">
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">UIVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
     </FxCompile>
   </ItemGroup>
   <ItemGroup>

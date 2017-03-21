@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CNetworkSession" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EMKIQQAAICAcEVAABCgAKMwAACQAEAUgAAMAACEAgAA=</HashCode>
+      <FileName>NetworkSession.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPacketSession" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIQAAAAAAEAiIBAACAACAAgiAAEEAAABABAAgAAAAA=</HashCode>
+      <FileName>PacketSession.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="_OVERLAPPED_EX" Collapsed="true">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAgAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_READ_PACKET_INFO" Collapsed="true">
+    <Position X="1.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAACAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PacketSession.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="OVERLAPPED_EX" Collapsed="true">
+    <Position X="4.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="POVERLAPPED_EX" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Include.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="READ_PACKET_INFO" Collapsed="true">
+    <Position X="1.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PacketSession.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="IO_TYPE" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Type.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

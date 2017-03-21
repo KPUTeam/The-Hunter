@@ -3,6 +3,7 @@
 #include "SceneScript\MainScene.h"
 #include "Scene/Dx11Scene.h"
 #include "Scene/Dx11SceneManager.h"
+#include "SceneScript\LogoScene.h"
 
 DX11_USING
 
@@ -30,9 +31,11 @@ bool CClientCore::Init(TCHAR* pTitle, TCHAR* pClass, HINSTANCE hInst,
 
 	CDx11Scene*	pScene = DX11_GET_SINGLE(CDx11SceneManager)->GetCurrentScene();
 
-	CMainScene*	pMainScene = pScene->CreateSceneScript<CMainScene>("MainScene");
+//	CMainScene*	pMainScene = pScene->CreateSceneScript<CMainScene>("MainScene");
 
-	SAFE_RELEASE(pMainScene);
+	CLogoScene* pLogoScene = pScene->CreateSceneScript<CLogoScene>("LogoScene");
+
+	SAFE_RELEASE(pLogoScene);
 
 	SAFE_RELEASE(pScene);
 

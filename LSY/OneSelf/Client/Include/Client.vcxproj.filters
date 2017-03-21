@@ -19,9 +19,6 @@
     <Filter Include="02. SceneScript">
       <UniqueIdentifier>{fc507584-0424-4f31-b37b-422054cfd542}</UniqueIdentifier>
     </Filter>
-    <Filter Include="02. SceneScript\01. MainScene">
-      <UniqueIdentifier>{dcc60c33-4d90-4740-b941-ed8c03bd86bf}</UniqueIdentifier>
-    </Filter>
     <Filter Include="03. ObjectScript">
       <UniqueIdentifier>{e5365640-66dd-414e-93ac-6a25bc19a74f}</UniqueIdentifier>
     </Filter>
@@ -40,6 +37,12 @@
     <Filter Include="03. ObjectScript\05. Invisible">
       <UniqueIdentifier>{87bb0248-90cc-4d27-97ff-6a7f5ba3b659}</UniqueIdentifier>
     </Filter>
+    <Filter Include="02. SceneScript\01. LogoScene">
+      <UniqueIdentifier>{287eafd4-fb8b-404f-9438-5bcc34048f5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. SceneScript\02. MainScene">
+      <UniqueIdentifier>{dcc60c33-4d90-4740-b941-ed8c03bd86bf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -49,7 +52,7 @@
       <Filter>01. Core</Filter>
     </ClCompile>
     <ClCompile Include="SceneScript\MainScene.cpp">
-      <Filter>02. SceneScript\01. MainScene</Filter>
+      <Filter>02. SceneScript\02. MainScene</Filter>
     </ClCompile>
     <ClCompile Include="ObjectScript\Player.cpp">
       <Filter>03. ObjectScript\01. Player</Filter>
@@ -69,6 +72,9 @@
     <ClCompile Include="ObjectScript\InvisibleObject.cpp">
       <Filter>03. ObjectScript\05. Invisible</Filter>
     </ClCompile>
+    <ClCompile Include="SceneScript\LogoScene.cpp">
+      <Filter>02. SceneScript\01. LogoScene</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Client.h">
@@ -81,7 +87,7 @@
       <Filter>01. Core</Filter>
     </ClInclude>
     <ClInclude Include="SceneScript\MainScene.h">
-      <Filter>02. SceneScript\01. MainScene</Filter>
+      <Filter>02. SceneScript\02. MainScene</Filter>
     </ClInclude>
     <ClInclude Include="ObjectScript\Player.h">
       <Filter>03. ObjectScript\01. Player</Filter>
@@ -100,6 +106,9 @@
     </ClInclude>
     <ClInclude Include="ObjectScript\InvisibleObject.h">
       <Filter>03. ObjectScript\05. Invisible</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneScript\LogoScene.h">
+      <Filter>02. SceneScript\01. LogoScene</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

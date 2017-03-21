@@ -74,3 +74,15 @@ int CDx11Component::LateUpdate(float fTime)
 void CDx11Component::Render(float fTime)
 {
 }
+
+void CDx11Component::OnCollisionEnter(CDx11Collider * pColl, float fTime)
+{
+}
+
+void CDx11Component::OnCollision(CDx11Collider * pColl, float fTime)
+{
+}
+
+void CDx11Component::OnCollisionExit(CDx11Collider * pColl, float fTime)
+{
+}
