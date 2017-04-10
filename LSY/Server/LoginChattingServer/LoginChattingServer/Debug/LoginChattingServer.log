@@ -1,5 +1,5 @@
-﻿  Thread.cpp
-  NetworkManager.cpp
-  코드를 생성하고 있습니다...
+﻿  NetworkManager.cpp
+c:\users\lsy\documents\github\the-hunter\lsy\server\loginchattingserver\loginchattingserver\networkmanager.cpp(125): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' 선언을 참조하십시오.
   LoginChattingServer.vcxproj -> C:\Users\LSY\Documents\GitHub\The-Hunter\LSY\Server\LoginChattingServer\Debug\LoginChattingServer.exe
   LoginChattingServer.vcxproj -> C:\Users\LSY\Documents\GitHub\The-Hunter\LSY\Server\LoginChattingServer\Debug\LoginChattingServer.pdb (Full PDB)

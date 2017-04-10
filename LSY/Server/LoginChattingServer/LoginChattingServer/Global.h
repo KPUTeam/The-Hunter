@@ -5,14 +5,21 @@
 #include <unordered_map>
 #include <list>
 #include <vector>
+#include <mysql.h>
 #include <process.h>
 
 using namespace std;
 
+#pragma comment(lib, "libmySQL.lib")
 #pragma comment(lib, "ws2_32")
 
 #define	PORT		9000
 #define PACKET_SIZE	1024
+
+#define DB_HOST "127.0.0.1"
+#define DB_USER "root"
+#define DB_PASS "qwer4321"
+#define DB_NAME "The_Hunter"
 
 enum PACKET_HEADER
 {
@@ -64,33 +71,13 @@ typedef struct _tagMember
 	{
 		memset(strID, 0, ID_SIZE);
 		memset(strPass, 0, PASS_SIZE);
+		bLogin = false;
 	}
 }MEMBER, *PMEMBER;
 
 
 
 #define SAFE_DELETE(p)		if(p)	{delete p; p = NULL; }
-#define DECLARE_SINGLE(Type)\
-		private:\
-			static Type*	m_pInst;\
-		public:\
-			static Type*	GetInst()\
-			{\
-				if(!m_pInst)\
-					m_pInst = new Type;\
-				return m_pInst;\
-			}\
-			static void DestroyInst()\
-			{\
-				SAFE_DELETE(m_pInst);\
-			}\
-		public:\
-			Type();\
-			~Type();\
-
-#define DEFINITION_SINGLE(Type)	Type* Type::m_pInst = NULL;
-#define GET_SINGLE(Type)	Type::GetInst()
-#define DESTROY_SINGLE(Type)	Type::DestroyInst()
 
 template <typename T>
 void Safe_Delete_Map(T& p)
@@ -121,3 +108,26 @@ void Safe_Delete_VecList(T& p)
 
 	p.clear();
 }
+
+#define DECLARE_SINGLE(Type)\
+		private:\
+			static Type*	m_pInst;\
+		public:\
+			static Type*	GetInst()\
+			{\
+				if(!m_pInst)\
+					m_pInst = new Type;\
+				return m_pInst;\
+			}\
+			static void DestroyInst()\
+			{\
+				SAFE_DELETE(m_pInst);\
+			}\
+		public:\
+			Type();\
+			~Type();\
+
+#define DEFINITION_SINGLE(Type)	Type* Type::m_pInst = NULL;
+#define GET_SINGLE(Type)	Type::GetInst()
+#define DESTROY_SINGLE(Type)	Type::DestroyInst()
+

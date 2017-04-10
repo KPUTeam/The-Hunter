@@ -30,6 +30,9 @@
     <ClCompile Include="NetSession.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ConnectDB.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="NetworkManager.h">
@@ -45,6 +48,15 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="NetSession.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleQueue.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Sync.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectDB.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

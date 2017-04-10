@@ -71,6 +71,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\mysql-5.7.17-win32\mysql-5.7.17-win32\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\mysql-5.7.17-win32\mysql-5.7.17-win32\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -92,6 +94,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>libmysql.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -142,6 +145,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ConnectDB.cpp" />
     <ClCompile Include="Iocp.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="NetSession.cpp" />
@@ -149,10 +153,13 @@
     <ClCompile Include="Thread.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CircleQueue.h" />
+    <ClInclude Include="ConnectDB.h" />
     <ClInclude Include="Global.h" />
     <ClInclude Include="Iocp.h" />
     <ClInclude Include="NetSession.h" />
     <ClInclude Include="NetworkManager.h" />
+    <ClInclude Include="Sync.h" />
     <ClInclude Include="Thread.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -16,6 +16,7 @@ public:
 	HANDLE	GetCompletionPort()	const;
 	bool DestroySession(SOCKET hSocket);
 	void SendAllSession(PPACKET pPacket);
+	bool LoadDBdata();
 	
 
 public:
