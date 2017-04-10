@@ -1,0 +1,23 @@
+﻿  Dx11Device.cpp
+c:\users\sangwon\documents\visual studio 2015\projects\myframework\dx11engine\include\core\../Dx11Object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+Core\Dx11Device.cpp(216): warning C4244: '=': 'const UINT'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+Core\Dx11Device.cpp(217): warning C4244: '=': 'const UINT'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Window.cpp
+c:\users\sangwon\documents\visual studio 2015\projects\myframework\dx11engine\include\core\../Dx11Object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+Core\Dx11Window.cpp(66): warning C4838: 'const UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+  Dx11Core.cpp
+c:\users\sangwon\documents\visual studio 2015\projects\myframework\dx11engine\include\Dx11Object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+  Dx11Object.cpp
+c:\users\sangwon\documents\visual studio 2015\projects\myframework\dx11engine\include\Dx11Object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+     C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\x64\Release\Dx11Engine.lib 라이브러리 및 C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\x64\Release\Dx11Engine.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  3 of 132 functions ( 2.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  Dx11Engine.vcxproj -> C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\x64\Release\Dx11Engine.dll
+  Dx11Engine.vcxproj -> C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\x64\Release\Dx11Engine.pdb (Full PDB)

@@ -1,0 +1,46 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Dx11FbxLoader.cpp
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\dx11types.h(255): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\dx11types.h(256): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(252): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(253): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(254): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(261): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(262): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(263): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(288): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(289): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(295): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(296): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(308): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(309): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(336): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(337): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(338): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(346): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(347): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(348): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(376): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(377): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(378): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(384): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(385): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(386): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(496): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(497): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\resources\dx11fbxloader.cpp(498): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11FilePathManager.cpp
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\dx11types.h(255): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\aiuv0\desktop\kpu\졸작\the hunter\dx11engine\include\dx11types.h(256): warning C4244: '=': 'const LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  Dx11Engine.vcxproj -> C:\Users\aiuv0\Desktop\KPU\졸작\the hunter\\Dx11Engine\Bin_Debug\Dx11Engine_Debug.dll
+  Dx11Engine.vcxproj -> C:\Users\aiuv0\Desktop\KPU\졸작\the hunter\\Dx11Engine\Bin_Debug\Dx11Engine_Debug.pdb (Full PDB)
+  0개 파일이 복사되었습니다.
+  .\Dx11Engine\Bin_Debug\Dx11Engine_Debug.dll
+  1개 파일이 복사되었습니다.
+  0개 파일이 복사되었습니다.
+  파일을 찾을 수 없습니다-*.*
+  0개 파일이 복사되었습니다.
+  .\Dx11Engine\Bin_Debug\Dx11Engine_Debug.dll
+  1개 파일이 복사되었습니다.
+  0개 파일이 복사되었습니다.

@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. Core">
+      <UniqueIdentifier>{42eb0579-5789-4f4d-b4e2-61df7a19dd70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Core\01. Window">
+      <UniqueIdentifier>{b78c050e-2aa0-4085-b7b4-1866a72d031e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resources">
+      <UniqueIdentifier>{7461af75-cec1-4720-ae87-32bd747c4ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resources\01. Mesh">
+      <UniqueIdentifier>{c22f5e43-d3b4-4fb7-8704-52393c155afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Rendering">
+      <UniqueIdentifier>{56db97c4-089f-44ed-b6d3-996582df3214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Rendering\01. Shader">
+      <UniqueIdentifier>{df2ebe10-5b44-4a51-a0d6-3172f060d6f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Rendering\01. Shader\01. FX">
+      <UniqueIdentifier>{4fe1308c-c96b-41ca-b322-dda847759c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Core\03. FilePath">
+      <UniqueIdentifier>{abc0624e-fce5-4b01-bf03-1c0644d0e731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Core\02. Device">
+      <UniqueIdentifier>{473325ed-acf6-47f0-8b0b-8bba5ea74fac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Core\04. Debug">
+      <UniqueIdentifier>{35da9760-6861-4ecc-869f-991c949b01c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Core\05. Timer">
+      <UniqueIdentifier>{705e1bae-a38d-41d7-90c3-ed6c4ace7dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene">
+      <UniqueIdentifier>{3fd971ea-a4e9-4e86-8eec-bf99701bd846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\01. Layer">
+      <UniqueIdentifier>{e1fce2bc-d651-4a1d-a99b-74daed7d9c9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. GameObject">
+      <UniqueIdentifier>{872db166-5308-42e9-a4f0-f222813dead4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Component">
+      <UniqueIdentifier>{c3b61579-7607-4356-ab97-52ff6b3fd00c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Component\01. Transform">
+      <UniqueIdentifier>{fe8a910d-9ae9-41ed-84a0-cdf81e9be9cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Component\02. Renderer">
+      <UniqueIdentifier>{9c65a1cb-07a4-45d1-b7a8-1227d07d92ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Component\03. Script">
+      <UniqueIdentifier>{2e5f360e-8e75-4bf3-9227-8a23152c2ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Core\06. Input">
+      <UniqueIdentifier>{853cf32e-36ee-446e-9e1b-986f207f72dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Component\04. Camera">
+      <UniqueIdentifier>{77124ea8-2c0b-4b34-9dac-645b90ce129a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Core\07. Scheduler">
+      <UniqueIdentifier>{1fdd4fbd-265a-4548-a350-e6566f409183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resources\02. Texture">
+      <UniqueIdentifier>{5c9ee405-6da8-4286-8246-f3700c3b9840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Component\05. Material">
+      <UniqueIdentifier>{621eb280-20ee-43c2-b37f-8224491ee5db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Component\06. Light">
+      <UniqueIdentifier>{7540b4c2-6d34-4b1b-a93a-bdeb43d49659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Rendering\02. RenderState">
+      <UniqueIdentifier>{af248efe-0d21-4e5a-ab2a-892aff39966e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Component\07. Collider">
+      <UniqueIdentifier>{bc1b4ed6-97d0-48e8-be6a-46ae321fffe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Core\08. Collision">
+      <UniqueIdentifier>{0e422a49-1a21-40fb-855b-8bc0a7f52cf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Component\08. UI">
+      <UniqueIdentifier>{a22f4762-5475-4343-a17b-70403eee2791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Component\09. Mouse">
+      <UniqueIdentifier>{852ee227-5dea-4f9e-bbff-7d2831b669c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Component\10. BillBoard">
+      <UniqueIdentifier>{ed10cbe0-de90-4de4-bb36-38d4f3e16ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Component\11. Terrain">
+      <UniqueIdentifier>{c4ff6eb5-acb5-4761-a1f9-c602a9b6bd91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Component\12. Animation">
+      <UniqueIdentifier>{d97655a0-9477-4eff-87bb-60615f15b6c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dx11Core.cpp">
+      <Filter>01. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx11Object.cpp">
+      <Filter>01. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dx11Window.cpp">
+      <Filter>01. Core\01. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dx11Device.cpp">
+      <Filter>01. Core\02. Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Dx11ResourcesManager.cpp">
+      <Filter>02. Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Dx11Mesh.cpp">
+      <Filter>02. Resources\01. Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Dx11Resources.cpp">
+      <Filter>02. Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Dx11ShaderManager.cpp">
+      <Filter>03. Rendering\01. Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Dx11Shader.cpp">
+      <Filter>03. Rendering\01. Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dx11FilePathManager.cpp">
+      <Filter>01. Core\03. FilePath</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dx11Debug.cpp">
+      <Filter>01. Core\04. Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dx11TimerManager.cpp">
+      <Filter>01. Core\05. Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dx11Timer.cpp">
+      <Filter>01. Core\05. Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Dx11SceneManager.cpp">
+      <Filter>04. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Dx11Scene.cpp">
+      <Filter>04. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Dx11Layer.cpp">
+      <Filter>04. Scene\01. Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Dx11GameObject.cpp">
+      <Filter>05. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11Component.cpp">
+      <Filter>06. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11Renderer.cpp">
+      <Filter>06. Component\02. Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11Transform.cpp">
+      <Filter>06. Component\01. Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11Script.cpp">
+      <Filter>06. Component\03. Script</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Dx11GameObjectManager.cpp">
+      <Filter>05. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dx11Input.cpp">
+      <Filter>01. Core\06. Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11Camera.cpp">
+      <Filter>06. Component\04. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dx11Scheduler.cpp">
+      <Filter>01. Core\07. Scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Dx11Texture.cpp">
+      <Filter>02. Resources\02. Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11Material.cpp">
+      <Filter>06. Component\05. Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Dx11Sampler.cpp">
+      <Filter>02. Resources\02. Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11Light.cpp">
+      <Filter>06. Component\06. Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11LightDir.cpp">
+      <Filter>06. Component\06. Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11LightPoint.cpp">
+      <Filter>06. Component\06. Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11LightSpot.cpp">
+      <Filter>06. Component\06. Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Dx11RenderState.cpp">
+      <Filter>03. Rendering\02. RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Dx11RenderManager.cpp">
+      <Filter>03. Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Dx11DepthStencilState.cpp">
+      <Filter>03. Rendering\02. RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Dx11RasterizerState.cpp">
+      <Filter>03. Rendering\02. RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Dx11BlendState.cpp">
+      <Filter>03. Rendering\02. RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11Collider.cpp">
+      <Filter>06. Component\07. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11ColliderSphere.cpp">
+      <Filter>06. Component\07. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dx11CollisionManager.cpp">
+      <Filter>01. Core\08. Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11ColliderRect.cpp">
+      <Filter>06. Component\07. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11ColliderPoint.cpp">
+      <Filter>06. Component\07. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11ColliderAABB.cpp">
+      <Filter>06. Component\07. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11UI.cpp">
+      <Filter>06. Component\08. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11UIBackground.cpp">
+      <Filter>06. Component\08. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11ColliderOBB.cpp">
+      <Filter>06. Component\07. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11UIButton.cpp">
+      <Filter>06. Component\08. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11Mouse.cpp">
+      <Filter>06. Component\09. Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11UIBar.cpp">
+      <Filter>06. Component\08. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Dx11FbxLoader.cpp">
+      <Filter>02. Resources\01. Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11Camera3rd.cpp">
+      <Filter>06. Component\04. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11BillBoard.cpp">
+      <Filter>06. Component\10. BillBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11Terrain.cpp">
+      <Filter>06. Component\11. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Dx11Animation2D.cpp">
+      <Filter>06. Component\12. Animation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dx11Engine.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx11Flag.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx11Macro.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx11Types.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx11Core.h">
+      <Filter>01. Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx11Object.h">
+      <Filter>01. Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dx11Window.h">
+      <Filter>01. Core\01. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dx11Device.h">
+      <Filter>01. Core\02. Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Dx11ResourcesManager.h">
+      <Filter>02. Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Dx11Resources.h">
+      <Filter>02. Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Dx11Mesh.h">
+      <Filter>02. Resources\01. Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Dx11ShaderManager.h">
+      <Filter>03. Rendering\01. Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Dx11Shader.h">
+      <Filter>03. Rendering\01. Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dx11FilePathManager.h">
+      <Filter>01. Core\03. FilePath</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dx11Debug.h">
+      <Filter>01. Core\04. Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dx11TimerManager.h">
+      <Filter>01. Core\05. Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dx11Timer.h">
+      <Filter>01. Core\05. Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Dx11SceneManager.h">
+      <Filter>04. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Dx11Scene.h">
+      <Filter>04. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Dx11Layer.h">
+      <Filter>04. Scene\01. Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Dx11GameObject.h">
+      <Filter>05. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11Component.h">
+      <Filter>06. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11Renderer.h">
+      <Filter>06. Component\02. Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11Transform.h">
+      <Filter>06. Component\01. Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11Script.h">
+      <Filter>06. Component\03. Script</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Dx11GameObjectManager.h">
+      <Filter>05. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dx11Input.h">
+      <Filter>01. Core\06. Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11Camera.h">
+      <Filter>06. Component\04. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dx11Scheduler.h">
+      <Filter>01. Core\07. Scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Dx11Texture.h">
+      <Filter>02. Resources\02. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\DirectXTex.h">
+      <Filter>02. Resources\02. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11Material.h">
+      <Filter>06. Component\05. Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Dx11Sampler.h">
+      <Filter>02. Resources\02. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11Light.h">
+      <Filter>06. Component\06. Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11LightDir.h">
+      <Filter>06. Component\06. Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11LightPoint.h">
+      <Filter>06. Component\06. Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11LightSpot.h">
+      <Filter>06. Component\06. Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Dx11RenderState.h">
+      <Filter>03. Rendering\02. RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Dx11RenderManager.h">
+      <Filter>03. Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Dx11DepthStencilState.h">
+      <Filter>03. Rendering\02. RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Dx11RasterizerState.h">
+      <Filter>03. Rendering\02. RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Dx11BlendState.h">
+      <Filter>03. Rendering\02. RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11Collider.h">
+      <Filter>06. Component\07. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11ColliderSphere.h">
+      <Filter>06. Component\07. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dx11CollisionManager.h">
+      <Filter>01. Core\08. Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11ColliderRect.h">
+      <Filter>06. Component\07. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11ColliderPoint.h">
+      <Filter>06. Component\07. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11ColliderAABB.h">
+      <Filter>06. Component\07. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11UI.h">
+      <Filter>06. Component\08. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11UIBackground.h">
+      <Filter>06. Component\08. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11ColliderOBB.h">
+      <Filter>06. Component\07. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11UIButton.h">
+      <Filter>06. Component\08. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11Mouse.h">
+      <Filter>06. Component\09. Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11UIBar.h">
+      <Filter>06. Component\08. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Dx11FbxLoader.h">
+      <Filter>02. Resources\01. Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11Camera3rd.h">
+      <Filter>06. Component\04. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11BillBoard.h">
+      <Filter>06. Component\10. BillBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11Terrain.h">
+      <Filter>06. Component\11. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Dx11Animation2D.h">
+      <Filter>06. Component\12. Animation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DirectXTex.inl">
+      <Filter>02. Resources\02. Texture</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Resources\Shader\Collider.fx">
+      <Filter>03. Rendering\01. Shader\01. FX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Shader\Default.fx">
+      <Filter>03. Rendering\01. Shader\01. FX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Shader\Effect.fx">
+      <Filter>03. Rendering\01. Shader\01. FX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Shader\Sky.fx">
+      <Filter>03. Rendering\01. Shader\01. FX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Resources\Shader\UI.fx">
+      <Filter>03. Rendering\01. Shader\01. FX</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
