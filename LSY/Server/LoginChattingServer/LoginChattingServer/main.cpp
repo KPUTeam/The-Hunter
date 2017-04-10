@@ -1,6 +1,7 @@
 
 #include "NetworkManager.h"
 
+
 int main()
 {
 	if (!GET_SINGLE(CNetworkManager)->Init())

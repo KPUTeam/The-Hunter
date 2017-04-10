@@ -9,31 +9,32 @@ public:
 	~CNetSession();
 
 private:
-	SOCKET		m_hSocket;
-	SOCKADDR_IN	m_tAddr;
-	
-	BUFFER		m_tReadBuffer;
-	BUFFER		m_tWriteBuffer;
+	SOCKET				m_hSocket;
+	SOCKADDR_IN			m_tAddr;
 
-	PACKET		m_tReadPacket;
-	PACKET		m_tWritePacket;
+	BUFFER				m_tReadBuffer;
+	BUFFER				m_tWriteBuffer;
 
-	DWORD		m_dwRecvBytes;
-	DWORD		m_dwReadFlag;
+	PACKET				m_tReadPacket;
+	PACKET				m_tWritePacket;
 
-	DWORD		m_dwWriteBytes;
-	DWORD		m_dwWriteFlag;
-	PMEMBER		m_pUserInfo;
+	DWORD				m_dwRecvBytes;
+	DWORD				m_dwReadFlag;
+
+	DWORD				m_dwWriteBytes;
+	DWORD				m_dwWriteFlag;
+
+	PMEMBER				m_pUserInfo;
 
 public:
-	SOCKET		GetSocket()	const;
-	PPACKET		GetReadPacket();
-	PPACKET		GetWritePacket();
-	PMEMBER		GetUserInfo()	const;
+	SOCKET GetSocket()	const;
+	PPACKET GetReadPacket();
+	PPACKET GetWritePacket();
+	PMEMBER	GetUserInfo()	const;
 
 public:
 	bool CreateListen();
-	CNetSession*	Accept();
+	CNetSession* Accept();
 	void Read();
 	void Write();
 	void Write(PPACKET pPacket);

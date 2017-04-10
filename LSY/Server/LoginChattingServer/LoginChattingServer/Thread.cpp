@@ -18,7 +18,7 @@ CThread::~CThread()
 	}
 }
 
-bool CThread::Create(CIocp * pIocp)
+bool CThread::Create(class CIocp * pIocp)
 {
 	m_pIocp = pIocp;
 	m_bLoop = true;
@@ -139,7 +139,7 @@ void CThread::Run()
 					if (pMember->bLogin)
 					{
 						iSuccess = 0;
-						cout << "ID: " << pMember->strID << "  이미 로그인이 되어있습니다." << endl;
+						cout << "ID: " << strID << "  이미 로그인이 되어있습니다." << endl;
 						break;
 					}
 

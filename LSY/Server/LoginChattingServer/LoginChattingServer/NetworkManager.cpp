@@ -1,86 +1,25 @@
 #include "NetworkManager.h"
 #include "NetSession.h"
 #include "Iocp.h"
+#include "ConnectDB.h"
 
 DEFINITION_SINGLE(CNetworkManager)
 
 CNetworkManager::CNetworkManager()
-	:m_pIocp(NULL)
+	:m_pIocp(NULL),
+	 m_pListen(NULL)
 {
-	// 회원 정보 파일을 읽어온다.
-	FILE*	pFile = NULL;
-	fopen_s(&pFile, "Member.mbr", "rb");
-	if (pFile)
-	{
-		int	iMemberCount = 0;
-		fread(&iMemberCount, 4, 1, pFile);
-
-		for (int i = 0; i < iMemberCount; ++i)
-		{
-			int iLength = 0;
-			fread(&iLength, 4, 1, pFile);
-			char	strID[ID_SIZE] = {};
-			char	strPass[PASS_SIZE] = {};
-
-			fread(strID, iLength, 1, pFile);
-			
-			fread(&iLength, 4, 1, pFile);
-			fread(strPass, iLength, 1, pFile);
-
-			PMEMBER	pMember = new MEMBER;
-
-			memset(pMember, 0, sizeof(MEMBER));
-
-			strcpy_s(pMember->strID, strID);
-			strcpy_s(pMember->strPass, strPass);
-
-			m_mapMember.insert(make_pair(strID, pMember));
-		}
-
-		fclose(pFile);
-	}
-
-	else // 초기에 파일을 만듬
-	{
-		fopen_s(&pFile, "Member.mbr", "wb");
-
-		int iCount = 0;
-
-		fwrite(&iCount, 4, 1, pFile);
-
-		fclose(pFile);
-	}
-
 	WSADATA	data;
 	WSAStartup(MAKEWORD(2, 2), &data);
+
+	if (!LoadDBdata())
+		cout << "DB에 있는 테이블 정보를 얻어오지 못하였습니다." << endl;
+	else cout << "테이블 정보를 가져왔습니다." << endl;
 }
 
 
 CNetworkManager::~CNetworkManager()
 {
-	FILE*	pFile = NULL;
-	fopen_s(&pFile, "Member.mbr", "wb");
-
-	int iCount = m_mapMember.size();
-
-	fwrite(&iCount, 4, 1, pFile);
-
-	unordered_map<string, PMEMBER>::iterator	iter;
-	unordered_map<string, PMEMBER>::iterator	iterEnd = m_mapMember.end();
-
-	for (iter = m_mapMember.begin(); iter != iterEnd; ++iter)
-	{
-		int iLength = strlen(iter->second->strID);
-		fwrite(&iLength, 4, 1, pFile);
-		fwrite(iter->second->strID, iLength, 1, pFile);
-
-		iLength = strlen(iter->second->strPass);
-		fwrite(&iLength, 4, 1, pFile);
-		fwrite(iter->second->strPass, iLength, 1, pFile);
-	}
-
-	fclose(pFile);
-
 	Safe_Delete_Map(m_mapMember);
 	SAFE_DELETE(m_pIocp);
 	Safe_Delete_Map(m_mapSession);
@@ -128,6 +67,17 @@ void CNetworkManager::SendAllSession(PPACKET pPacket)
 	}
 }
 
+bool CNetworkManager::LoadDBdata()
+{
+	CConnectDB* p_DB = GET_SINGLE(CConnectDB);
+	if (!p_DB->DBconnect())
+		return false;
+
+	SAFE_DELETE(p_DB);
+	
+	return true;
+}
+
 bool CNetworkManager::Init()
 {
 	// 서버용 세션을 만들어준다.
@@ -160,8 +110,8 @@ void CNetworkManager::Run()
 
 bool CNetworkManager::AddMember(char * pID, char * pPass)
 {
-	if (FindMember(pID))
-		return false;
+//	if (FindMember(pID))
+//		return false;
 
 	PMEMBER	pMember = new MEMBER;
 
@@ -170,31 +120,16 @@ bool CNetworkManager::AddMember(char * pID, char * pPass)
 
 	m_mapMember.insert(make_pair(pID, pMember));
 
-	FILE* pFile = NULL;
+	char Query[50] = {};
 
-	fopen_s(&pFile, "Member.mbr", "wb");
+	sprintf(Query, "Insert into user_info values('%s', '%s')", pID, pPass);
 
-	if (pFile)
-	{
-		int	iCount = m_mapMember.size();
-		fwrite(&iCount, 4, 1, pFile);
-
-		unordered_map<string, PMEMBER>::iterator	iter;
-		unordered_map<string, PMEMBER>::iterator	iterEnd = m_mapMember.end();
-
-		for (iter = m_mapMember.begin(); iter != iterEnd; ++iter)
-		{
-			int iLength = strlen(iter->second->strID);
-			fwrite(&iLength, 4, 1, pFile);
-			fwrite(iter->second->strID, iLength, 1, pFile);
-
-			iLength = strlen(iter->second->strPass);
-			fwrite(&iLength, 4, 1, pFile);
-			fwrite(iter->second->strPass, iLength, 1, pFile);
-		}
-		
-		fclose(pFile);
-	}
+	CConnectDB* pCDB = GET_SINGLE(CConnectDB);
+	pCDB->DBconnect();
+	if (!pCDB->InputQuery(Query))
+		return false;
+	//	pCDB->ShowResult();
+	DESTROY_SINGLE(CConnectDB);
 
 	return true;
 }

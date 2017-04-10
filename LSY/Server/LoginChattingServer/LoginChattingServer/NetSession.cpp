@@ -4,7 +4,6 @@
 
 CNetSession::CNetSession()
 {
-	m_pUserInfo = NULL;
 	m_hSocket = NULL;
 	memset(&m_tAddr, 0, sizeof(m_tAddr));
 }
@@ -83,7 +82,7 @@ void CNetSession::Read()
 {		
 	memset(&m_tReadBuffer.tOverlapped, 0, sizeof(OVERLAPPED));
 	m_tReadBuffer.tWsaBuf.len = PACKET_SIZE + 8;
-	m_tReadBuffer.tWsaBuf.buf = (char*)&m_tReadBuffer;
+	m_tReadBuffer.tWsaBuf.buf = (char*)&m_tReadPacket;
 	m_tReadBuffer.eMode = TM_READ;
 	m_dwRecvBytes = 0;
 	m_dwReadFlag = 0;
@@ -94,7 +93,7 @@ void CNetSession::Read()
 
 void CNetSession::Write()
 {
-	memset(&m_tWriteBuffer, 0, sizeof(OVERLAPPED));
+	memset(&m_tWriteBuffer.tOverlapped, 0, sizeof(OVERLAPPED));
 	m_tWriteBuffer.tWsaBuf.len = m_tWritePacket.iSize + 8;
 	m_tWriteBuffer.tWsaBuf.buf = (char*)&m_tWritePacket;
 	m_tWriteBuffer.eMode = TM_WRITE;
