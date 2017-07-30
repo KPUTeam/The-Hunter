@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="01. Common">
+      <UniqueIdentifier>{cd561636-85f5-4ab8-a944-dc974906b959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Core">
+      <UniqueIdentifier>{33a95ef2-91fa-4347-a312-990557b0054f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene Script">
+      <UniqueIdentifier>{08aa8205-08f4-4768-bf63-140d5095ba60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Obj Script">
+      <UniqueIdentifier>{75451c62-e7b3-4c32-be9c-bd2210daa4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene Script\01. MainSceneSC">
+      <UniqueIdentifier>{a105e501-c698-42f4-9188-ab3235b7d115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Network">
+      <UniqueIdentifier>{fcfe5676-36e6-4a53-ad44-b012736910b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Network\01. UserSession">
+      <UniqueIdentifier>{70b01af4-3235-444a-96ce-3f65ded10e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Network\02. Lib">
+      <UniqueIdentifier>{d2942caf-f10b-4368-bffe-290fe5ea9719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene Script\02. LoadingSceneSC">
+      <UniqueIdentifier>{a316f4a0-cead-40c1-8371-5830f1a02196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene Script\03. InGameSceneSC">
+      <UniqueIdentifier>{19d60bf3-0910-4c4b-8345-1e0b7d931030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Obj Script\01. UserSC">
+      <UniqueIdentifier>{ef97c49e-3ac0-4a69-9745-a401f86ca79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Obj Script\02. CoordinateArrowSC">
+      <UniqueIdentifier>{91ddfabd-774d-4600-a1b5-016dc2ebd188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Obj Script\03. TankSC">
+      <UniqueIdentifier>{ebece1cf-d4e0-45e8-8dfc-2b4435ceabbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Obj Script\04. BulletSC">
+      <UniqueIdentifier>{39c6567b-ee3c-499c-9040-520660e6fc8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Obj Script\05. MonsterSC">
+      <UniqueIdentifier>{edd30b66-6eb0-48c4-8dc3-fdc7a144ed8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. AI State">
+      <UniqueIdentifier>{1146400e-55b8-4482-8ac4-8fa8d871fc90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClientCore.cpp">
+      <Filter>02. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>01. Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\IngameNetwork.cpp">
+      <Filter>06. Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetManager.cpp">
+      <Filter>06. Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\UserSession.cpp">
+      <Filter>06. Network\01. UserSession</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjScript\Player\User.cpp">
+      <Filter>04. Obj Script\01. UserSC</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneScript\MainSceneSC.cpp">
+      <Filter>03. Scene Script\01. MainSceneSC</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneScript\LoadingSceneSC.cpp">
+      <Filter>03. Scene Script\02. LoadingSceneSC</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneScript\InGameSceneSC.cpp">
+      <Filter>03. Scene Script\03. InGameSceneSC</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjScript\CoordinateArrow\CoordinateArrowSC.cpp">
+      <Filter>04. Obj Script\02. CoordinateArrowSC</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjScript\Tank\TankInitSC.cpp">
+      <Filter>04. Obj Script\03. TankSC</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjScript\Tank\TankCameraSC.cpp">
+      <Filter>04. Obj Script\03. TankSC</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjScript\Tank\TankUI.cpp">
+      <Filter>04. Obj Script\03. TankSC</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjScript\Bullet\BulletSC.cpp">
+      <Filter>04. Obj Script\04. BulletSC</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjScript\Monster\MonsterSC.cpp">
+      <Filter>04. Obj Script\05. MonsterSC</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjScript\Tank\TackCollisionSC.cpp">
+      <Filter>04. Obj Script\03. TankSC</Filter>
+    </ClCompile>
+    <ClCompile Include="AIState\AttackState.cpp">
+      <Filter>05. AI State</Filter>
+    </ClCompile>
+    <ClCompile Include="AIState\DamageState.cpp">
+      <Filter>05. AI State</Filter>
+    </ClCompile>
+    <ClCompile Include="AIState\IdleState.cpp">
+      <Filter>05. AI State</Filter>
+    </ClCompile>
+    <ClCompile Include="AIState\JumpState.cpp">
+      <Filter>05. AI State</Filter>
+    </ClCompile>
+    <ClCompile Include="AIState\RunState.cpp">
+      <Filter>05. AI State</Filter>
+    </ClCompile>
+    <ClCompile Include="AIState\ShakeHeadState.cpp">
+      <Filter>05. AI State</Filter>
+    </ClCompile>
+    <ClCompile Include="AIState\SmileState.cpp">
+      <Filter>05. AI State</Filter>
+    </ClCompile>
+    <ClCompile Include="AIState\WalkState.cpp">
+      <Filter>05. AI State</Filter>
+    </ClCompile>
+    <ClCompile Include="AIState\DeathState.cpp">
+      <Filter>05. AI State</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClientCore.h">
+      <Filter>02. Core</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>01. Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>01. Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Include.h">
+      <Filter>06. Network\02. Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROCircularQueue.h">
+      <Filter>06. Network\02. Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROClient.h">
+      <Filter>06. Network\02. Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROClientSession.h">
+      <Filter>06. Network\02. Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROCriticalSection.h">
+      <Filter>06. Network\02. Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROCrypt.h">
+      <Filter>06. Network\02. Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROEventSelect.h">
+      <Filter>06. Network\02. Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROIocp.h">
+      <Filter>06. Network\02. Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROLog.h">
+      <Filter>06. Network\02. Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROMemoryLeak.h">
+      <Filter>06. Network\02. Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROMemoryPool.h">
+      <Filter>06. Network\02. Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROMultiThreadSync.h">
+      <Filter>06. Network\02. Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZERONetworkSession.h">
+      <Filter>06. Network\02. Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROPacketSession.h">
+      <Filter>06. Network\02. Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROStream.h">
+      <Filter>06. Network\02. Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>01. Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\IngameNetwork.h">
+      <Filter>06. Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetManager.h">
+      <Filter>06. Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\UserSession.h">
+      <Filter>06. Network\01. UserSession</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjScript\Player\User.h">
+      <Filter>04. Obj Script\01. UserSC</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientKey.h">
+      <Filter>01. Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneScript\MainSceneSC.h">
+      <Filter>03. Scene Script\01. MainSceneSC</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneScript\LoadingSceneSC.h">
+      <Filter>03. Scene Script\02. LoadingSceneSC</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneScript\InGameSceneSC.h">
+      <Filter>03. Scene Script\03. InGameSceneSC</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjScript\CoordinateArrow\CoordinateArrowSC.h">
+      <Filter>04. Obj Script\02. CoordinateArrowSC</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjScript\Tank\TankInitSC.h">
+      <Filter>04. Obj Script\03. TankSC</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjScript\Tank\TankCameraSC.h">
+      <Filter>04. Obj Script\03. TankSC</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjScript\Tank\TankUI.h">
+      <Filter>04. Obj Script\03. TankSC</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjScript\Bullet\BulletSC.h">
+      <Filter>04. Obj Script\04. BulletSC</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjScript\Monster\MonsterSC.h">
+      <Filter>04. Obj Script\05. MonsterSC</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjScript\Tank\TackCollisionSC.h">
+      <Filter>04. Obj Script\03. TankSC</Filter>
+    </ClInclude>
+    <ClInclude Include="AIState\AttackState.h">
+      <Filter>05. AI State</Filter>
+    </ClInclude>
+    <ClInclude Include="AIState\DamageState.h">
+      <Filter>05. AI State</Filter>
+    </ClInclude>
+    <ClInclude Include="AIState\IdleState.h">
+      <Filter>05. AI State</Filter>
+    </ClInclude>
+    <ClInclude Include="AIState\JumpState.h">
+      <Filter>05. AI State</Filter>
+    </ClInclude>
+    <ClInclude Include="AIState\RunState.h">
+      <Filter>05. AI State</Filter>
+    </ClInclude>
+    <ClInclude Include="AIState\ShakeHeadState.h">
+      <Filter>05. AI State</Filter>
+    </ClInclude>
+    <ClInclude Include="AIState\SmileState.h">
+      <Filter>05. AI State</Filter>
+    </ClInclude>
+    <ClInclude Include="AIState\WalkState.h">
+      <Filter>05. AI State</Filter>
+    </ClInclude>
+    <ClInclude Include="AIState\DeathState.h">
+      <Filter>05. AI State</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>01. Common</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>01. Common</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

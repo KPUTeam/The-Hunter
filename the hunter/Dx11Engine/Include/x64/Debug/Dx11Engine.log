@@ -1,7 +1,0 @@
-﻿C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Dx11Engine\Bin_Debug\Shader\Default.fx(180,2-56): warning X3206: implicit truncation of vector type
-C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Dx11Engine\Bin_Debug\Shader\Default.fx(181,2-73): warning X3206: implicit truncation of vector type
-C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Dx11Engine\Bin_Debug\Shader\Default.fx(242,2-73): warning X3206: implicit truncation of vector type
-C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Dx11Engine\Bin_Debug\Shader\Default.fx(243,2-56): warning X3206: implicit truncation of vector type
-FXC : error X3501: 'main': entrypoint not found
-  
-  compilation failed; no code produced
