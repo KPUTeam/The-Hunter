@@ -1,5 +1,0 @@
-.exp
-.ilk
-.pdb
-.iobj
-.ipdb
