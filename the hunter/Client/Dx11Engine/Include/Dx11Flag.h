@@ -1,0 +1,197 @@
+
+#pragma once
+// AI State Enum
+enum AI_STATE
+{
+	AI_ATTACK,
+	AI_DAMAGE,
+	AI_IDLE,
+	AI_JUMP,
+	AI_RUN,
+	AI_SHAKEHEAD,
+	AI_SMAILE,
+	AI_WALK
+};
+
+// Transform Parent Flag
+enum TRANSFORM_PARENT_FLAG
+{
+	TPF_NONE,
+	TPF_SCALE = 0x00000001,	//001 = 1
+	TPF_ROT = 0x00000002,	//010 = 2
+	TPF_REV = 0x00000004,	//100 = 4
+	TPF_ALL = TPF_SCALE | TPF_ROT | TPF_REV //111 = 7
+
+};
+
+// Scene Change Flag
+enum MOSQUITO_SCENECHANGE_FLAG
+{
+	MSCF_NONE,
+	MSCF_CHANGE
+};
+
+// Resolution Type
+enum RESOLUTION_TYPE
+{
+	RT_MINI,
+	RT_HD,
+	RT_FHD,
+	RT_MAX
+};
+
+// Axis
+enum AXIS
+{
+	AXIS_NONE = -1,
+	AXIS_X,
+	AXIS_Y,
+	AXIS_Z,
+	AXIS_MAX
+};
+
+// Component Type
+enum COMPONENT_TYPE
+{
+	CT_TRANSFORM,
+	CT_RENDERER,
+	CT_SCRIPT,
+	CT_CAMERA,
+	CT_MATERIAL,
+	CT_LIGHT,
+	CT_COLLIDER,
+	CT_UI,
+	CT_MOUSE,
+	CT_BILLBOARD,
+	CT_ANIMATION2D,
+	CT_ANIMATION3D,
+	CT_TERRAIN,
+	CT_FSM
+};
+
+// Schedule Option
+enum SCHEDULE_OPTION
+{
+	SO_ONCE,
+	SO_LOOP
+};
+
+// Colider Type
+enum COLLIDER_SUB_TYPE
+{
+	CST_SPHERE,
+	CST_RC,
+	CST_AABB,
+	CST_OBB,
+	CST_POINT,
+	CST_RAY,
+	CST_TERRAIN,
+	CST_FRUSTUM
+
+};
+
+// Shader Type
+enum SHADER_TYPE
+{
+	ST_VERTEX,
+	ST_PIXEL
+};
+
+// Object Create Type
+enum OBJECT_CREATE_TYPE
+{
+	OCT_NORMAL,
+	OCT_PROTOTYPE,
+	OCT_CLONE
+};
+
+// Light Type
+enum LIGHT_TYPE
+{
+	LT_DIR = 1,
+	LT_POINT,
+	LT_SPOT
+};
+
+// RenderState Flag
+enum RENDERSTATE_FLAG
+{
+	RSF_RASTERIZER,
+	RSF_BLEND,
+	RSF_DEPTHSTENCIL,
+	RSF_MAX
+};
+
+// Rotation Flag
+enum ROTATION_FLAG
+{
+	RF_XYZ,
+	RF_AXIS,
+	RF_LOOKAT,
+	RF_BILLBOARD
+};
+
+// Camera Type
+enum CAMERA_TYPE
+{
+	CT_PERSPECTIVE,
+	CT_ORTHOGONAL
+};
+
+// UIBar Dir
+enum UIBAR_DIR
+{
+	UBD_LEFT,
+	UBD_RIGHT,
+	UBD_UP,
+	UBD_DOWN
+};
+
+// Button State
+enum BUTTON_STATE
+{
+	BS_NONE,
+	BS_MOUSEON,
+	BS_CLICK,
+	BS_MOUSEOUT,
+	BS_DISABLE,
+	BS_MAX
+};
+
+// Animation2D Type
+enum ANIMATION2D_TYPE
+{
+	A2D_FRAME,
+	A2D_ATLAS_H,
+	A2D_ATLAS_ALL
+};
+
+// Animation2D Option
+enum ANIMATION2D_OPTION
+{
+	A2DO_ONCE,
+	A2DO_LOOP,
+	A2DO_TIME
+};
+
+// Rendering Group
+enum RENDER_GROUP
+{
+	RG_SKY,
+	RG_NORMAL,
+	RG_ALPHA1,
+	RG_ALPHA2,
+	RG_ALPHA3,
+	RG_UI,
+	RG_END
+};
+
+// Fade State
+enum FADE_STATE
+{
+	FADE_NONE,
+	FADE_OUT_START,
+	FADE_OUT_END,
+	FADE_IN_START,
+	FADE_IN_END
+};

@@ -1,0 +1,800 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(373,5): warning MSB8004: Output 디렉터리가 슬래시로 끝나지 않습니다. Output 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(89,3-70): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(96,10-66): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(143,3): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(149,3): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(179,3-100): warning X3206: 'SampleLevel': implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(180,3-104): warning X3206: 'SampleLevel': implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(181,3-104): warning X3206: 'SampleLevel': implicit truncation of vector type
+  compilation object save succeeded; see C:\Users\HSJ\Desktop\20170815\main06120924\Dx11Engine\Bin_Debug\Collider.cso
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(182,3-104): warning X3206: 'SampleLevel': implicit truncation of vector type
+  
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(89,3-70): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(96,10-66): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(143,3): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(149,3): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(179,3-100): warning X3206: 'SampleLevel': implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(180,3-104): warning X3206: 'SampleLevel': implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(181,3-104): warning X3206: 'SampleLevel': implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(182,3-104): warning X3206: 'SampleLevel': implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Default.fx(71,2-69): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Default.fx(72,2-56): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Default.fx(76,3-72): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Default.fx(77,3-74): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Default.fx(98,2-73): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Default.fx(99,2-60): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Default.fx(103,3-76): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Default.fx(104,3-78): warning X3206: implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\HSJ\Desktop\20170815\main06120924\Dx11Engine\Bin_Debug\Default.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(89,3-70): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(96,10-66): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(143,3): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(149,3): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(179,3-100): warning X3206: 'SampleLevel': implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(180,3-104): warning X3206: 'SampleLevel': implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(181,3-104): warning X3206: 'SampleLevel': implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(182,3-104): warning X3206: 'SampleLevel': implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\HSJ\Desktop\20170815\main06120924\Dx11Engine\Bin_Debug\Effect.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(89,3-70): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(96,10-66): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(143,3): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(149,3): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(179,3-100): warning X3206: 'SampleLevel': implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(180,3-104): warning X3206: 'SampleLevel': implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(181,3-104): warning X3206: 'SampleLevel': implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(182,3-104): warning X3206: 'SampleLevel': implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\HSJ\Desktop\20170815\main06120924\Dx11Engine\Bin_Debug\Share.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\HSJ\Desktop\20170815\main06120924\Dx11Engine\Bin_Debug\Sky.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(89,3-70): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(96,10-66): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(143,3): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(149,3): warning X3206: implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(179,3-100): warning X3206: 'SampleLevel': implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(180,3-104): warning X3206: 'SampleLevel': implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(181,3-104): warning X3206: 'SampleLevel': implicit truncation of vector type
+C:\Users\HSJ\Desktop\20170815\main06120924\Resources\Shader\Share.fx(182,3-104): warning X3206: 'SampleLevel': implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\HSJ\Desktop\20170815\main06120924\Dx11Engine\Bin_Debug\UI.cso
+  Dx11ShaderManager.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Shader.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11SceneManager.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Scene.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Layer.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Texture.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11ResourcesManager.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Resources.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Mesh.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(60): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(63): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(132): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(133): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(134): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(136): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(137): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(138): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(140): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(141): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(143): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(144): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(145): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(147): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(148): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(149): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(151): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(152): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(153): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(154): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(156): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(157): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(158): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(159): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(175): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(176): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(177): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(179): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(180): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(181): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(183): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(184): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(186): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(187): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(188): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(189): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(191): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(192): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(193): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(194): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(214): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(215): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(216): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(218): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(219): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(220): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(222): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(223): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(225): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(226): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(227): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(229): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(230): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(231): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(247): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(248): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(249): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(251): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(252): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(253): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(255): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(256): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(286): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(287): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(288): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(290): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(291): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(292): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(294): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(295): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(296): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(298): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(299): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(300): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(391): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(401): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(415): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(416): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(417): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(420): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(421): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(422): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(425): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(426): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(427): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(428): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(438): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(445): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(446): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(447): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(449): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(450): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(451): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(453): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(454): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(455): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(456): warning C4244: '=': 'fbxsdk::FbxDouble'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11mesh.cpp(522): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Dx11FbxLoader.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11fbxloader.cpp(959): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\resources\dx11fbxloader.cpp(975): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11RenderState.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11RenderManager.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11RasterizerState.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11DepthStencilState.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11BlendState.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11PrototypeManager.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11GameObject.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Object.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11FSM.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Core.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Dx11Window.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11TimerManager.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Timer.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Scheduler.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11PathManager.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Input.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11File.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Device.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Debug.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11CollisionManager.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11UISlot.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11UIPanel.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11UIIcon.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11UIButton.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11UIBar.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11UI.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Transform.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Terrain.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\component\dx11terrain.cpp(101): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\component\dx11terrain.cpp(109): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\component\dx11terrain.cpp(117): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\component\dx11terrain.cpp(232): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+  Dx11Script.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Renderer.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\component\dx11renderer.cpp(53): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\component\dx11renderer.cpp(57): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\component\dx11renderer.cpp(427): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Dx11Mouse.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Material.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11LightPoint.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11LightDir.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Light.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Component.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11ColliderTerrain.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\component\dx11colliderterrain.cpp(36): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\component\dx11colliderterrain.cpp(106): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\component\dx11colliderterrain.cpp(120): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11ColliderSphere.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11ColliderRC.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11ColliderRay.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\component\dx11colliderray.cpp(54): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\component\dx11colliderray.cpp(143): warning C4060: switch문에 'case' 또는 'default' 레이블이 없습니다.
+  Dx11ColliderPoint.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  DX11ColliderOBB.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  DX11ColliderFrustrum.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11ColliderAABB.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Collider.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Camera3rd.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Camera.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\component\dx11camera.cpp(43): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\component\dx11camera.cpp(47): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+  Dx11BillBoard.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11AnimationClip.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11Animation3D.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\component\dx11animation3d.cpp(88): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\component\dx11animation3d.cpp(95): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Dx11Animation2D.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Dx11State.cpp
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(496): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(497): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(498): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(499): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(672): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(673): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(674): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hsj\desktop\20170815\main06120924\dx11engine\include\structure.h(675): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+     C:\Users\HSJ\Desktop\20170815\main06120924\\Dx11Engine\Bin_Debug\Dx11Engine_Debug.lib 라이브러리 및 C:\Users\HSJ\Desktop\20170815\main06120924\\Dx11Engine\Bin_Debug\Dx11Engine_Debug.exp 개체를 생성하고 있습니다.
+DirectXTex.lib(BC.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(BC.obj)' 또는 'C:\Users\HSJ\Desktop\20170815\main06120924\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(BC4BC5.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(BC4BC5.obj)' 또는 'C:\Users\HSJ\Desktop\20170815\main06120924\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(BC6HBC7.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(BC6HBC7.obj)' 또는 'C:\Users\HSJ\Desktop\20170815\main06120924\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexCompress.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexCompress.obj)' 또는 'C:\Users\HSJ\Desktop\20170815\main06120924\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexConvert.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexConvert.obj)' 또는 'C:\Users\HSJ\Desktop\20170815\main06120924\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexD3D11.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexD3D11.obj)' 또는 'C:\Users\HSJ\Desktop\20170815\main06120924\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexDDS.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexDDS.obj)' 또는 'C:\Users\HSJ\Desktop\20170815\main06120924\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexImage.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexImage.obj)' 또는 'C:\Users\HSJ\Desktop\20170815\main06120924\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexMipMaps.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexMipMaps.obj)' 또는 'C:\Users\HSJ\Desktop\20170815\main06120924\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexTGA.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexTGA.obj)' 또는 'C:\Users\HSJ\Desktop\20170815\main06120924\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexUtil.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexUtil.obj)' 또는 'C:\Users\HSJ\Desktop\20170815\main06120924\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex.lib(DirectXTexWIC.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex.lib(DirectXTexWIC.obj)' 또는 'C:\Users\HSJ\Desktop\20170815\main06120924\Dx11Engine\Bin_Debug\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  Dx11Engine.vcxproj -> C:\Users\HSJ\Desktop\20170815\main06120924\\Dx11Engine\Bin_Debug\Dx11Engine_Debug.dll
+  Dx11Engine.vcxproj -> C:\Users\HSJ\Desktop\20170815\main06120924\\Dx11Engine\Bin_Debug\Dx11Engine_Debug.pdb (Partial PDB)
+  0개 파일이 복사되었습니다.
+  .\Dx11Engine\Bin_Debug\Collider.cso
+  .\Dx11Engine\Bin_Debug\Default.cso
+  .\Dx11Engine\Bin_Debug\Dx11Engine_Debug.dll
+  .\Dx11Engine\Bin_Debug\Dx11Engine_Debug.lib
+  .\Dx11Engine\Bin_Debug\Effect.cso
+  .\Dx11Engine\Bin_Debug\lnk{EC9C7ABA-A4DA-4FF9-A00A-73F5B76CFB2A}.tmp
+  .\Dx11Engine\Bin_Debug\Share.cso
+  .\Dx11Engine\Bin_Debug\Sky.cso
+  .\Dx11Engine\Bin_Debug\UI.cso
+  9개 파일이 복사되었습니다.
+  0개 파일이 복사되었습니다.
+  파일을 찾을 수 없습니다-*.*
+  0개 파일이 복사되었습니다.
+  .\Dx11Engine\Bin_Debug\Collider.cso
+  .\Dx11Engine\Bin_Debug\Default.cso
+  .\Dx11Engine\Bin_Debug\Dx11Engine_Debug.dll
+  .\Dx11Engine\Bin_Debug\Dx11Engine_Debug.lib
+  .\Dx11Engine\Bin_Debug\Effect.cso
+  .\Dx11Engine\Bin_Debug\lnk{EC9C7ABA-A4DA-4FF9-A00A-73F5B76CFB2A}.tmp
+  .\Dx11Engine\Bin_Debug\Share.cso
+  .\Dx11Engine\Bin_Debug\Sky.cso
+  .\Dx11Engine\Bin_Debug\UI.cso
+  9개 파일이 복사되었습니다.
+  잘못된 경로
+  0개 파일이 복사되었습니다.
+  .\Dx11Engine\Bin_Debug\Collider.cso
+  .\Dx11Engine\Bin_Debug\Default.cso
+  .\Dx11Engine\Bin_Debug\Dx11Engine_Debug.dll
+  .\Dx11Engine\Bin_Debug\Dx11Engine_Debug.lib
+  .\Dx11Engine\Bin_Debug\Effect.cso
+  .\Dx11Engine\Bin_Debug\lnk{EC9C7ABA-A4DA-4FF9-A00A-73F5B76CFB2A}.tmp
+  .\Dx11Engine\Bin_Debug\Share.cso
+  .\Dx11Engine\Bin_Debug\Sky.cso
+  .\Dx11Engine\Bin_Debug\UI.cso
+  9개 파일이 복사되었습니다.
+  0개 파일이 복사되었습니다.

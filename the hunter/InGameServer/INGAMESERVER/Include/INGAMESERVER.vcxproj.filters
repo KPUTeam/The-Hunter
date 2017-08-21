@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. NetworkLib">
+      <UniqueIdentifier>{bc87ae9d-d2ae-4160-b701-71e3dc7c00ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. NetworkManager">
+      <UniqueIdentifier>{6335b88c-b57e-4f56-9827-8f272a71fd7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. IOCP">
+      <UniqueIdentifier>{c14981fe-6455-4b24-86ea-ffacc04bd314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Session">
+      <UniqueIdentifier>{2815e70c-87b3-461f-8085-6c8177abf91a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. ObjectScript">
+      <UniqueIdentifier>{bfefa498-1a70-4d47-a246-af6b0c2fc088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Logic">
+      <UniqueIdentifier>{7e990502-ca96-4087-a111-fa506a50dd6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. AI">
+      <UniqueIdentifier>{baacf2ec-be37-4ab3-99f0-0b7f03835123}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="server_main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkManager.cpp">
+      <Filter>02. NetworkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerIOCP.cpp">
+      <Filter>03. IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.cpp">
+      <Filter>05. ObjectScript</Filter>
+    </ClCompile>
+    <ClCompile Include="UserScript.cpp">
+      <Filter>05. ObjectScript</Filter>
+    </ClCompile>
+    <ClCompile Include="UserSession.cpp">
+      <Filter>04. Session</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic.cpp">
+      <Filter>06. Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterManager.cpp">
+      <Filter>07. AI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Network.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Include.h">
+      <Filter>01. NetworkLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROCircularQueue.h">
+      <Filter>01. NetworkLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROClient.h">
+      <Filter>01. NetworkLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROClientSession.h">
+      <Filter>01. NetworkLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROCriticalSection.h">
+      <Filter>01. NetworkLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROCrypt.h">
+      <Filter>01. NetworkLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROEventSelect.h">
+      <Filter>01. NetworkLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROIocp.h">
+      <Filter>01. NetworkLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROLog.h">
+      <Filter>01. NetworkLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROMemoryLeak.h">
+      <Filter>01. NetworkLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROMemoryPool.h">
+      <Filter>01. NetworkLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROMultiThreadSync.h">
+      <Filter>01. NetworkLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZERONetworkSession.h">
+      <Filter>01. NetworkLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROPacketSession.h">
+      <Filter>01. NetworkLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROStream.h">
+      <Filter>01. NetworkLib</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkManager.h">
+      <Filter>02. NetworkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerIOCP.h">
+      <Filter>03. IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.h">
+      <Filter>05. ObjectScript</Filter>
+    </ClInclude>
+    <ClInclude Include="UserScript.h">
+      <Filter>05. ObjectScript</Filter>
+    </ClInclude>
+    <ClInclude Include="UserSession.h">
+      <Filter>04. Session</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic.h">
+      <Filter>06. Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterManager.h">
+      <Filter>07. AI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+﻿  Iocp.cpp
+  main.cpp
+  NetSession.cpp
+NetSession.cpp(70): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\WinSock2.h(1848): note: 'inet_ntoa' 선언을 참조하십시오.
+  NetworkManager.cpp
+  Thread.cpp
+  코드를 생성하고 있습니다.
+  All 709 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  LoginChattingServer.vcxproj -> C:\Users\LSY\Downloads\LoginChattingServer NODB\Release\LoginChattingServer.exe
+  LoginChattingServer.vcxproj -> C:\Users\LSY\Downloads\LoginChattingServer NODB\Release\LoginChattingServer.pdb (Full PDB)
